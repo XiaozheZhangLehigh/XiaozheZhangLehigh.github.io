@@ -1,6 +1,6 @@
 ## About Me
 
-What's up? hey\|you
+Pronoun Him|His
 
 I am an awesome student at Lehigh, major in Finance and Business Information Systems and minor in Fintech. You should hire me!
 
