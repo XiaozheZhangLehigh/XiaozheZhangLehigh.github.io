@@ -1,3 +1,7 @@
+---
+layout: wide_default
+---
+
 # Sentiment Analysis on FY2022 10-K Reports from S&P 500 Companies
 
 ## Summary
