@@ -3,6 +3,7 @@
 What's up? hey\|you
 
 I am an awesome student at Lehigh, major in Finance and Business Information Systems and minor in Fintech. You should hire me!
+
 ---
 
 ## Portfolio
