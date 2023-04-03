@@ -2,9 +2,7 @@
 
 What's up? hey\|you
 
-I am an awesome student at Lehigh, you should hire me!
-
-<!-- Upload your own photo and change the path -->
+I am an awesome student at Lehigh, major in Finance and Business Information Systems and minor in Fintech. You should hire me!
 
 <p style="text-align:center;">
   <img class="img-circle" src="https://github.com/donbowen/donbowen.github.io/raw/master/images/logo.png" width="50%">
