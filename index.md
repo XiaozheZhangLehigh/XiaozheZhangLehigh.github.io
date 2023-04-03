@@ -10,11 +10,11 @@ I am an awesome student at Lehigh, major in Finance and Business Information Sys
 
 <!-- You can link to other websites, PDFs in this repo, and other pages in this repo -->
 
-_**[Natural language processing 10-Ks to identify risks](midterm_summary)**_
+_**[Sentiment Analysis on FY2022 10-K Reports from S&P 500 Companies: NLP Practice](report/report.md)**_
 
 You can show off your midterm analysis by moving the report components and output into this file. Or...
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="report/output_34_0.png?raw=true"/>
 
 ---
 
@@ -32,7 +32,7 @@ _**[Eventual team project](https://donbowen.github.io/teamproject/)**_
 
 ---
 
-_**[Some personal project](/pdf/sample_presentation.pdf)**_
+_**[Johnson Controls Internship Project](/pdf/sample_presentation.pdf)**_
 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
