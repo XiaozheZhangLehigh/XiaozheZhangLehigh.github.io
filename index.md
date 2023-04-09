@@ -39,7 +39,7 @@ _**[Johnson Controls Internship Project SGA Account Optimization Analysis](/JCI/
 - Gym
 - Edm Music
 - Light Designing and DJing
-- Science Fiction: **Dune, Foundation and Empire, Legend of the Galactic Heroes**
+- Science Fiction: *Dune, Foundation and Empire, Legend of the Galactic Heroes*
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
