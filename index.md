@@ -28,9 +28,9 @@ _**[Eventual team project](https://donbowen.github.io/teamproject/)**_
 
 ---
 
-_**[Johnson Controls Internship Project](/pdf/sample_presentation.pdf)**_
+_**[Johnson Controls Internship Project](/JCI/JCIinternship.md)**_
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="JCI/Figure/Figure1.png?raw=true"/>
 
 ---
 
