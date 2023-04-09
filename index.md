@@ -28,7 +28,7 @@ _**[Eventual team project](https://donbowen.github.io/teamproject/)**_
 
 ---
 
-_**[Johnson Controls Internship Project](/JCI/JCIinternship.md)**_
+_**[Johnson Controls Internship Project SGA Account Optimization Analysis](/JCI/JCIinternship.md)**_
 
 <img src="JCI/Figure/Figure1.png?raw=true"/>
 
