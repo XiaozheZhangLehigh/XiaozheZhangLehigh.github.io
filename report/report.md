@@ -33,6 +33,7 @@ The merged df (merged_filingdfv1) has the following heading:
 |----------|----------|----------|----------|----------|----------|----------
 
 date_x: is the date variable from the 2022 stock return 
+
 date_y: is the exact filing date for S&P 500 companies
 
 The merged df (merged_filingdfv1) has the following heading:
@@ -41,6 +42,7 @@ The merged df (merged_filingdfv1) has the following heading:
 |----------|----------|----------|----------|----------|----------|----------
 
 date_x: is the date variable from the 2022 stock return 
+
 date_y: is the exact filing date for S&P 500 companies
 
 
