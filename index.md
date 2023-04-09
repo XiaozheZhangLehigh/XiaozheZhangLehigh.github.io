@@ -10,8 +10,6 @@ I am an international student from China. I am a driven and accomplished class o
 
 _**[Sentiment Analysis on FY2022 10-K Reports from S&P 500 Companies: NLP Practice](report/report.md)**_
 
-You can show off your midterm analysis by moving the report components and output into this file. Or...
-
 <img src="report/output_34_0.png?raw=true"/>
 
 ---
