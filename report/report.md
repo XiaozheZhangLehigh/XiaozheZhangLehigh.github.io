@@ -29,17 +29,7 @@ An inner merge would be appropriated to merge these two dataframes, because we w
 
 The merged df (merged_filingdfv1) has the following heading:
 
-| Symbol | date_x | ret | Security | CIK | Accession_Num | date_y |
-|----------|----------|----------|----------|----------|----------|----------
-
-date_x: is the date variable from the 2022 stock return 
-
-date_y: is the exact filing date for S&P 500 companies
-
-The merged df (merged_filingdfv1) has the following heading:
-
-| Symbol | date_x | ret | Security | CIK | Accession_Num | date_y
-|----------|----------|----------|----------|----------|----------|----------
+**| Symbol | date_x | ret | Security | CIK | Accession_Num | date_y |**
 
 date_x: is the date variable from the 2022 stock return 
 
@@ -61,12 +51,7 @@ Next, cleaning and filtering out unnecessary rows in the merged df (merged_filin
 
 4. Calculate the cumulative return for each dataframe and retain the tail row for each company only, because the last row under each company is the cumulative retain over the period. Save the corresponding last rows for each periods to two different dataframe and merge them as ```merged_cum_ret_df```. Filter out unnecessary rows for better visual and later merging purposes:
 
-| Symbol | Security | CIK | Accession_Num | cum_ret02 | cum_ret310 |
-|----------|----------|----------|----------|----------|---------- 
-
-| Symbol | Security | CIK | Accession_Num | cum_ret02 | cum_ret310
-|----------|----------|----------|----------|----------|----------
-
+**| Symbol | Security | CIK | Accession_Num | cum_ret02 | cum_ret310 |**
 
 The calculation for cumulative stock return is shown as below:
           
