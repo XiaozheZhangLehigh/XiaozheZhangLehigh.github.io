@@ -577,6 +577,7 @@ plt.show()
 *Compare / contrast the relationship between the returns variable and the two “LM Sentiment” variables (positive and negative) with the relationship between the returns variable and the two “ML Sentiment” variables (positive and negative). Focus on the patterns of the signs of the relationships and the magnitudes.*
 
 **Portion of Correlation Table:**
+
 ||cum_ret02|
 |----------|----------
 | LM_positive_score | -0.159601 |
@@ -595,6 +596,7 @@ Therefore, we can conclude that there are significant differences in the relatio
 *If your comparison/contrast conflicts with Table 3 of the Garcia, Hu, and Rohrer paper (ML_JFE.pdf, in the repo), discuss and brainstorm possible reasons why you think the results may differ. If your patterns agree, discuss why you think they bothered to include so many more firms and years and additional controls in their study? (It was more work than we did on this midterm, so why do it to get to the same point?)*
 
 **Portion of Table 3 from the paper**
+
 ||Filing period excess return|
 |----------|----------
 | LM positive| −0.14 |
@@ -615,6 +617,7 @@ The deviation happens for the following reasons:
 *Discuss your 3 “contextual” sentiment measures. Do they have a relationship with returns that looks “different enough” from zero to investigate further? If so, make an economic argument for why sentiment in that context can be value relevant.*
 
 **Portion of Correlation Table:**
+
 ||cum_ret02|
 |----------|----------
 |Asset_return_Positive_score|             -0.054274 | 
@@ -646,6 +649,7 @@ In conclusion, sentiment measures can provide investors and analysts with valuab
 Is there a difference in the sign and magnitude? Speculate on why or why not.*
 
 **Portion of Correlation Table:**
+
 ||cum_ret02|cum_ret310|
 |----------|----------|----------
 |ML_Positive_score| 0.058766 | 0.030397| 
