@@ -1,8 +1,6 @@
 ## About Me
 
-Pronoun Him|His
-
-I am an awesome student at Lehigh, major in Finance and Business Information Systems and minor in Fintech. You should hire me!
+I am an international student from China. I am a driven and accomplished class of 2023 student at Lehigh University. Throughout my academic career, I have pursued a rigorous course in Finance and Business Information Systems, building a solid foundation of knowledge in both fields. I have always been fascinated by the intersection of technology and finance, and my academic interests reflect this passion. I have demonstrated a strong aptitude for programming, statistics, and data analysis and have explored various applications of these skills in finance. In particular, I am deeply interested in AI, Machine learning, algorithmic trading, and quantitative finance.
 
 ---
 
@@ -40,15 +38,19 @@ _**[Johnson Controls Internship Project](/pdf/sample_presentation.pdf)**_
 
 ## Career Objectives
 
-Write what you want. 
-
-Sell yourself!
+- Asset Management
+- Quant Trading
+- Quantitative Research
+- Investment Banking
 
 ---
 
-## Hobbies
+## Hobbies and Interests
 
-Maybe include a little about these, especially if they are the kinds of things that work well in interviews.
+- Gym
+- Edm Music
+- Light Designing and DJing
+- Science Fiction: Dune, Foundation and Empire, Legend of the Galactic Heroes
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
