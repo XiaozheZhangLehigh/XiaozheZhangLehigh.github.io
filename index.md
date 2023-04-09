@@ -14,17 +14,8 @@ _**[Sentiment Analysis on FY2022 10-K Reports from S&P 500 Companies: NLP Practi
 
 ---
 
-_**[Regression Practice](Regression_practice)**_
+_**[Eventual team project (Still working on it)]**_
 
-Or: The process that created this page can be used to show off your whole midterm analysis file, as is.
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-
-_**[Eventual team project](https://donbowen.github.io/teamproject/)**_
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
