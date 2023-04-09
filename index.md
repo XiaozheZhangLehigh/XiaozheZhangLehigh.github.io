@@ -14,7 +14,7 @@ _**[Sentiment Analysis on FY2022 10-K Reports from S&P 500 Companies: NLP Practi
 
 ---
 
-_**[Eventual team project (Still working on it)]**_
+_**Eventual team project (Coming Soon)**_
 
 
 ---
