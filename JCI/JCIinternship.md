@@ -1,3 +1,7 @@
+---
+layout: wide_default
+---
+
 # BSNA-SGA Expense Projection Analysis Methodology
 ---
 ## Johnson Controls - Summer 2022
