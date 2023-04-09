@@ -14,7 +14,7 @@ The findings suggest that all sentiment variables have a certain level of either
 
 ### Data Sources and Samples
 
-Samples in this sentiment analysis come from multiple sources, including a [list of current S&P 500 companies](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies) by March 24, 2022, from Wikipedia, 10-K reports from [SEC EDGAR | Company Filings](https://www.sec.gov/edgar/searchedgar/companysearch) , and relevant supporting datasets provided by Professor Donald Bowen's [repo for 2023 FIN377 class at Lehigh University](https://github.com/LeDataSciFi/data). To be more specific, inside Professor Bowen's repo, the overall unfiltered companies' daily returns of 2022 are found in [crsp_2022_only.zip](https://github.com/LeDataSciFi/data/tree/main/Stock%20Returns%20(CRSP)), and [2021 accounting data (2021_ccm_cleaned.dta)]() from the repo.
+Samples in this sentiment analysis come from multiple sources, including a [list of current S&P 500 companies](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies) by March 24, 2022, from Wikipedia, 10-K reports from [SEC EDGAR Company Filings](https://www.sec.gov/edgar/searchedgar/companysearch) , and relevant supporting datasets provided by Professor Donald Bowen's [repo for 2023 FIN377 class at Lehigh University](https://github.com/LeDataSciFi/data). To be more specific, inside Professor Bowen's repo, the overall unfiltered companies' daily returns of 2022 are found in [crsp_2022_only.zip](https://github.com/LeDataSciFi/data/tree/main/Stock%20Returns%20(CRSP)), and [2021 accounting data (2021_ccm_cleaned.dta)]() from the repo.
 
 ### Stock Return Preparation and Cleaning
 
@@ -35,6 +35,15 @@ The merged df (merged_filingdfv1) has the following heading:
 date_x: is the date variable from the 2022 stock return 
 date_y: is the exact filing date for S&P 500 companies
 
+The merged df (merged_filingdfv1) has the following heading:
+
+| Symbol | date_x | ret | Security | CIK | Accession_Num | date_y
+|----------|----------|----------|----------|----------|----------|----------
+
+date_x: is the date variable from the 2022 stock return 
+date_y: is the exact filing date for S&P 500 companies
+
+
 Next, cleaning and filtering out unnecessary rows in the merged df (merged_filingdfv1) helps prepare the calculation for the cumulative return over two time periods. 
 1. For each company, filter out rows that are before the filing date (date_y) in their date_x variable.
 2. Filter out rows for each company from the filing date (t) to 2 business days after filing date (t+2) and save them as a new dataframe (merged_filing02df)
@@ -52,6 +61,10 @@ Next, cleaning and filtering out unnecessary rows in the merged df (merged_filin
 
 | Symbol | Security | CIK | Accession_Num | cum_ret02 | cum_ret310 |
 |----------|----------|----------|----------|----------|---------- 
+
+| Symbol | Security | CIK | Accession_Num | cum_ret02 | cum_ret310
+|----------|----------|----------|----------|----------|----------
+
 
 The calculation for cumulative stock return is shown as below:
           
