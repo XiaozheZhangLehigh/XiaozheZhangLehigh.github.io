@@ -18,9 +18,9 @@ _**[Sentiment Analysis on FY2022 10-K Reports from S&P 500 Companies: NLP Practi
 
 ---
 
-_**Eventual team project (Coming Soon)**_
+_**[ESG and Market Performance of Historical and Current S&P 500 Companies](FIN377-Final-Project-Nicole-and-three-dudes/README.md)**_
 
-
+<img src="FIN377-Final-Project-Nicole-and-three-dudes/ESG_Image.png?raw=true"/>
 ---
 
 _**[Johnson Controls Internship Project SGA Account Optimization Analysis](/JCI/JCIinternship.md)**_
