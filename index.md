@@ -14,7 +14,7 @@ I am an international student from China. I am a driven and accomplished class o
 
 _**[Sentiment Analysis on FY2022 10-K Reports from S&P 500 Companies: NLP Practice](NLP_report/report.md)**_
 
-<img src="NLP_report/output_34_0.png?raw=true"/>
+<[img src="NLP_report/output_34_0.png?raw=true"/]>(https://nicole-elchaar-esg-dashboard-app-mpiwio.streamlit.app/)
 
 ---
 
