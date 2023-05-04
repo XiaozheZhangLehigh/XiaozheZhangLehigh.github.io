@@ -26,7 +26,8 @@ _**[ESG and Market Performance of Historical and Current S&P 500 Companies](FIN3
 ---
 
 _**[Johnson Controls Internship Project SGA Account Optimization Analysis](/JCI/JCIinternship.md)**_
-<img src="XiaozheZhangLehigh.github.io/JCI/Figure4.png?raw=true"/>
+
+<img src="JCI/Figure/Figure4.png?raw=true"/>
 
 
 
