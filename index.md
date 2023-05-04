@@ -12,9 +12,9 @@ I am an international student from China. I am a driven and accomplished class o
 
 <!-- You can link to other websites, PDFs in this repo, and other pages in this repo -->
 
-_**[Sentiment Analysis on FY2022 10-K Reports from S&P 500 Companies: NLP Practice](report/report.md)**_
+_**[Sentiment Analysis on FY2022 10-K Reports from S&P 500 Companies: NLP Practice](NLP_report/report.md)**_
 
-<img src="report/output_34_0.png?raw=true"/>
+<img src="NLP_report/output_34_0.png?raw=true"/>
 
 ---
 
