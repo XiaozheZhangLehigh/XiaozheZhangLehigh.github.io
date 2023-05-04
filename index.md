@@ -14,7 +14,7 @@ I am an international student from China. I am a driven and accomplished class o
 
 _**[Sentiment Analysis on FY2022 10-K Reports from S&P 500 Companies: NLP Practice](NLP_report/report.md)**_
 
-<[img src="NLP_report/output_34_0.png?raw=true"/]>(https://nicole-elchaar-esg-dashboard-app-mpiwio.streamlit.app/)
+<img src="NLP_report/output_34_0.png?raw=true"/>
 
 ---
 
@@ -25,7 +25,10 @@ _**[ESG and Market Performance of Historical and Current S&P 500 Companies](FIN3
 
 _**[Johnson Controls Internship Project SGA Account Optimization Analysis](/JCI/JCIinternship.md)**_
 
-<img src="JCI/Figure/Figure1.png?raw=true"/>
+<a href="https://nicole-elchaar-esg-dashboard-app-mpiwio.streamlit.app/">
+  <img src="FIN377-Final-Project-Nicole-and-three-dudes/ESG_Image.png?raw=true" alt="ESG Image">
+</a>
+
 
 ---
 
