@@ -19,11 +19,12 @@ The model samples analyzed in this study are derived from investment models cura
 ### Model Preparation and Cleaning
 
 The investment models are constructed based on sector allocations, which include:
-|-----------------------|---------------------------|------------------------|------------------------|--------------------------|
+
 | U.S. Large Cap Growth | U.S. Large Cap Value      | U.S. Large Cap Blend   | U.S. Mid Cap Growth    | U.S. Mid Cap Value       |
+|-----------------------|---------------------------|------------------------|------------------------|--------------------------|
 | U.S. Mid Cap Blend    | U.S. Small Cap Growth     | U.S. Small Cap Value   | U.S. Small Cap Blend   | Non-U.S. Developed Stocks|
-| Non-U.S. Emerging Stocks| U.S. Taxable Long-Term Bonds | U.S. Taxable Intermediate-Term Bonds | U.S. Taxable Short-Term Bonds | U.S. Inflation-Protected Bonds |
-| U.S. Tax-Exempt Bonds | U.S. High Yield Bonds     | Non-U.S. Developed Bonds| Non-U.S. Emerging Bonds| U.S. Bonds               |
+| Non-U.S. Emerging Stocks | U.S. Taxable Long-Term Bonds | U.S. Taxable Intermediate-Term Bonds | U.S. Taxable Short-Term Bonds | U.S. Inflation-Protected Bonds |
+| U.S. Tax-Exempt Bonds | U.S. High Yield Bonds     | Non-U.S. Developed Bonds | Non-U.S. Emerging Bonds | U.S. Bonds               |
 | Cash                  | U.S. Real Estate          | Commodities            | Alternatives           | Other                    |
 
 Each allocation is characterized by distinct market exposures and growth potentials, necessitating a meticulous approach to model construction.
