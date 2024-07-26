@@ -9,6 +9,7 @@
 - Threshold: A cut-off value to determine the number of clusters from the dendrogram.	
 
 This process groups similar models together based on their sector allocations, allowing for a more organized and interpretable analysis of the models. The overall practice reduces over 100 duplications and identified key models using clustering to streamline model implementation.
+
 ## Data Description	
 
 ### Data Sources and Samples
@@ -18,7 +19,7 @@ The model samples analyzed in this study are derived from investment models cura
 ### Model Preparation and Cleaning
 
 The investment models are constructed based on sector allocations, which include:
-
+|-----------------------|---------------------------|------------------------|------------------------|--------------------------|
 | U.S. Large Cap Growth | U.S. Large Cap Value      | U.S. Large Cap Blend   | U.S. Mid Cap Growth    | U.S. Mid Cap Value       |
 | U.S. Mid Cap Blend    | U.S. Small Cap Growth     | U.S. Small Cap Value   | U.S. Small Cap Blend   | Non-U.S. Developed Stocks|
 | Non-U.S. Emerging Stocks| U.S. Taxable Long-Term Bonds | U.S. Taxable Intermediate-Term Bonds | U.S. Taxable Short-Term Bonds | U.S. Inflation-Protected Bonds |
@@ -31,7 +32,7 @@ Each allocation is characterized by distinct market exposures and growth potenti
 
 The data cleaning process is essential due to the presence of personalized models tailored for specific clients and niche models, including those focused on cryptocurrencies, 401k plans, and 529 college savings accounts. Ensuring the consistency and accuracy of these models is crucial for reliable analysis and interpretation.
 
-### Method
+## Method
 
 #### Cluster Analysis
 
