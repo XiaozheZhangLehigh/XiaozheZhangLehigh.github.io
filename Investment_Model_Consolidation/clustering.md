@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/68699aed-d428-4216-9d0d-4a53b4444c0b)# Model Consolidation for Investment Models via Hierarchical Clustering	
+# Model Consolidation for Investment Models via Hierarchical Clustering	
 
 ## Summary	
 
