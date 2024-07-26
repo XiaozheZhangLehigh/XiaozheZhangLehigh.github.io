@@ -11,27 +11,25 @@
 This process groups similar models together based on their sector allocations, allowing for a more organized and interpretable analysis of the models. The overall practice reduces over 100 duplications and identified key models using clustering to streamline model implementation.
 ## Data Description	
 
-### Data Sources and Samples	
+### Data Sources and Samples
 
-Model samples in this analysis come from the investment models based on different risk-return profiles from a financial advisory company.
+The model samples analyzed in this study are derived from investment models curated by a financial advisory firm. These models are designed to cater to various risk-return profiles, providing a comprehensive overview of diverse investment strategies.
 
-### Model Preparation and Cleaning	
+### Model Preparation and Cleaning
 
-Investment models are constructed based on sector allocations of:	
-      'U.S. Large Cap Growth', 'U.S. Large Cap Value', 'U.S. Large Cap Blend',	
-       'U.S. Mid Cap Growth', 'U.S. Mid Cap Value', 'U.S. Mid Cap Blend',	
-       'U.S. Small Cap Growth', 'U.S. Small Cap Value', 'U.S. Small Cap Blend',	
-       'Non-US Dev Stock', 'Non-US Emrg Stock', 'U.S. Txbl Long Term Bonds',	
-       'U.S. Txbl Int Term Bonds', 'U.S. Txbl Short Term Bonds',	
-       'U.S. Infl Protected Bonds', 'U.S. Tax-Exempt Bonds',	
-       'U.S. High Yield Bonds', 'Non-US Dev Bonds', 'Non-US Emrg Bonds',	
-       'U.S. Bonds', 'Cash', 'U.S. Real Estate', 'Commodities', 'Alternatives',	
-       'Other',	
+The investment models are constructed based on sector allocations, which include:
 
-As each allocation has different market exposure and growth potentials.	
+| U.S. Large Cap Growth | U.S. Large Cap Value      | U.S. Large Cap Blend   | U.S. Mid Cap Growth    | U.S. Mid Cap Value       |
+| U.S. Mid Cap Blend    | U.S. Small Cap Growth     | U.S. Small Cap Value   | U.S. Small Cap Blend   | Non-U.S. Developed Stocks|
+| Non-U.S. Emerging Stocks| U.S. Taxable Long-Term Bonds | U.S. Taxable Intermediate-Term Bonds | U.S. Taxable Short-Term Bonds | U.S. Inflation-Protected Bonds |
+| U.S. Tax-Exempt Bonds | U.S. High Yield Bonds     | Non-U.S. Developed Bonds| Non-U.S. Emerging Bonds| U.S. Bonds               |
+| Cash                  | U.S. Real Estate          | Commodities            | Alternatives           | Other                    |
 
-Cleaning is needed as there are personalized models for specific client and niche models for cryptos, 401k, 529 college accounts. 	
+Each allocation is characterized by distinct market exposures and growth potentials, necessitating a meticulous approach to model construction.
 
+**Data Cleaning:**
+
+The data cleaning process is essential due to the presence of personalized models tailored for specific clients and niche models, including those focused on cryptocurrencies, 401k plans, and 529 college savings accounts. Ensuring the consistency and accuracy of these models is crucial for reliable analysis and interpretation.
 
 ### Method
 
