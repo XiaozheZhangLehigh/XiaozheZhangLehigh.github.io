@@ -43,10 +43,10 @@ _**[Sentiment Analysis on FY2022 10-K Reports from S&P 500 Companies: NLP Practi
 
 ---
 
-_**[Analyzing Bank of the West Lending Practices]**_
+_**Analyzing Bank of the West Lending Practices**_
 
 <a href="https://github.com/LeDataSciFi/FinTech-Capstone-2023/?tab=readme-ov-file#executive-summary">
-  <img src="FIN377-Final-Project-Nicole-and-three-dudes/BofW_Image.jpg?raw=true" alt="BofW Image">
+  <img src="AnalyzingBankofWest/BofW_Image.jpg" alt="BofW Image">
 </a>
 ---
 
