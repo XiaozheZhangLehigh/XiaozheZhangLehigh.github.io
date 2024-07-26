@@ -6,7 +6,7 @@ layout: wide_default
 
 I am a master's student in Mathematical Finance at Boston University, bringing a solid foundation in science and finance to my studies. I graduated from Lehigh University in 2023 with a dual major in Finance and Business Information Systems. I have demonstrated a strong aptitude for programming, statistics, and data analysis and have explored various applications of these skills in finance. In particular, I am deeply interested in algorithmic trading, quantitative finance, AI, and Machine learning.
 
-**Extroverted Quant  Embracing Bold Thinking & Big Dreams  Passion, Mission, Commitment**
+**| Extroverted Quant | Embracing Bold Thinking & Big Dreams | Passion, Mission, Commitment |**
 
 ---
 
