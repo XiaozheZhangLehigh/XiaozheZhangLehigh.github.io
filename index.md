@@ -24,13 +24,13 @@ I am a master's student in Mathematical Finance at Boston University, bringing a
 
 _**[Investment Model Consolidation via Hierarchical Clustering](Investment Model Consolidation/clustering.md)**_
 
-<img src="Investment Model Consolidation/clustering.png?raw=true"/>
+<img src="Investment Model Consolidation/clustering.png?raw=true" style="width:70%;">
 
 ---
 
 _**[Johnson Controls Internship Project SGA Account Optimization Analysis](/JCI/JCIinternship.md)**_
 
-<img src="JCI/Figure/Figure4.png?raw=true"/>
+<img src="JCI/Figure/Figure4.png?raw=true" style="width:70%;">
 
 
 ---
