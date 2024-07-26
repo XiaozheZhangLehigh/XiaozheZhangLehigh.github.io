@@ -22,9 +22,9 @@ I am a master's student in Mathematical Finance at Boston University, bringing a
 
 <!-- You can link to other websites, PDFs in this repo, and other pages in this repo -->
 
-_**[Sentiment Analysis on FY2022 10-K Reports from S&P 500 Companies: NLP Practice](NLP_report/report.md)**_
+_**[Investment Model Consolidation via Hierarchical Clustering](Investment Model Consolidation/clustering.md)**_
 
-<img src="NLP_report/output_34_0.png?raw=true"/>
+<img src="Investment Model Consolidation/clustering.png?raw=true"/>
 
 ---
 
