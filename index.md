@@ -24,7 +24,7 @@ I am a master's student in Mathematical Finance at Boston University, bringing a
 
 _**[Investment Model Consolidation via Hierarchical Clustering](Investment_Model_Consolidation/clustering.md)**_
 
-<img src="Investment Model Consolidation/clustering.png?raw=true" style="width:70%;">
+<img src="Investment_Model_Consolidation/clustering.png?raw=true" style="width:70%;">
 
 ---
 
