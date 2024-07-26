@@ -10,8 +10,9 @@ I am a master's student in Mathematical Finance at Boston University, bringing a
 
 ## Skills
 
-*Programming*: R Python, R, SQL, Java, C++, Pandas, NumPy, Polars, Scikit-learn, SciPy, TensorFlow, pypfopt
-*Methods*: Econometrics, OLS, Time Series, Bayesian, Factor Modeling, NLP, Machine Learning
+**Programming**: R Python, R, SQL, Java, C++, Pandas, NumPy, Polars, Scikit-learn, SciPy, TensorFlow, pypfopt
+
+**Methods**: Econometrics, OLS, Time Series, Bayesian, Factor Modeling, NLP, Machine Learning
 
 ---
 
