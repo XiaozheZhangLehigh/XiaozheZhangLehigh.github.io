@@ -8,9 +8,10 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a href="https://github.com/XiaozheZhangLehigh">GitHub</a>  
   <br>
   <br>
-  <img src="/images/BU.png" alt="Boston University" style="width:60px;height:60px;"> Boston University
+  <img src="/images/BU.png" alt="Boston University" style="width:60px;height:60px;"> Boston University _ Master
+  
   <br>
-  <img src="/images/LU.png" alt="Lehigh University" style="width:60px;height:60px;"> Lehigh University
+  <img src="/images/LU.png" alt="Lehigh University" style="width:60px;height:60px;"> Lehigh University _ Bachelor
   
   
 theme: jekyll-theme-minimal
