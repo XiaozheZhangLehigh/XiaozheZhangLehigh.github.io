@@ -1,21 +1,19 @@
-# Model Consolidation for Investment Models via Hierarchical Clustering	
+![image](https://github.com/user-attachments/assets/68699aed-d428-4216-9d0d-4a53b4444c0b)# Model Consolidation for Investment Models via Hierarchical Clustering	
 
 ## Summary	
 
-Summary	
 - Hierarchical Clustering: A method of cluster analysis that groups similar objects into groups called clusters. The endpoint is a set of clusters, where each cluster is distinct from each other cluster, and the objects within each cluster are broadly similar to each other.	
 - Ward's Method: A variance-minimizing approach that merges clusters to minimize the increase in total within-cluster variance.	
 - Cosine Similarity: Used to measure the similarity between models based on their sector allocations.	
 - Dendrogram: A visual representation of the hierarchical clustering process, helping to decide the number of clusters.	
 - Threshold: A cut-off value to determine the number of clusters from the dendrogram.	
 
-This process groups similar models together based on their sector allocations, allowing for a more organized and interpretable analysis of the models.	
-
+This process groups similar models together based on their sector allocations, allowing for a more organized and interpretable analysis of the models. The overall practice reduces over 100 duplications and identified key models using clustering to streamline model implementation.
 ## Data Description	
 
 ### Data Sources and Samples	
 
-Model samples in this analysis come from the investment models based on different risk-return profiles from a financial advisory company.	
+Model samples in this analysis come from the investment models based on different risk-return profiles from a financial advisory company.
 
 ### Model Preparation and Cleaning	
 
@@ -32,96 +30,66 @@ Investment models are constructed based on sector allocations of:
 
 As each allocation has different market exposure and growth potentials.	
 
-Cleaning is needed as there are personalized models for specific client and niche models for cryptos, 401k, 529 accounts. 	
+Cleaning is needed as there are personalized models for specific client and niche models for cryptos, 401k, 529 college accounts. 	
 
 
-### Sentiment Analysis	
+### Method
 
-#### What is Sentiment?	
+#### Cluster Analysis
 
-The core of the whole analysis is to answer the question, "Do 10-K filings contain value-relevant information in the sentiment of the text?"	
-The word "Sentiment" in our context is: "Does the word have a positive or negative tone (e.g., "confident" vs. "against")."	
+**Cosine similarity** is easily interpretable since it is bounded between zero and one. Thus, two insurers with identical portfolios will have a cosine similarity equal to one; two insurers whose portfolios are completely different will have a cosine similarity equal to zero.
 
-What we want to know: **Is the positive or negative sentiment in a 10-K associated with better/worse stock returns?**	
+##### Step 1: Calculate Similarity
+- Calculate the similarity between models based on their sector allocations.
+- We'll use cosine similarity to measure the similarity between models.
+- Identify Similar Models if the similarity score is between 0.95 - 0.99999
 
-**Sentiment Score**: To analyze the sentiment in a 10-K report, we need to obtain word lists of positive/negative words and calculate the corresponding sentiment scores in the 10-K report text.	
-The equation is as follows:	
+##### Step 2: Cluster Models
+- Use clustering techniques to group similar models together.
+- We'll use hierarchical clustering to group similar models.
 
-The equation is as followed: 	
-$$\text{Sentiment Score} = \frac{\text{Positive/Negative Word Count in Report}}{\text{Total Word Count in Report}}$$	
+Explanation of Ward's Method
+- Ward's Method: This method minimizes the total within-cluster variance. At each step, it merges the pair of clusters that leads to the smallest increase in total within-cluster variance.
+- Advantages: Ward's method is effective in producing clusters of similar size and compactness, making it suitable for identifying distinct groups in the data.
+
+Classification Criteria
+- Cosine Similarity: The similarity between models is based on the cosine of the angle between their sector composition vectors.
+- Linkage Criteria: The clusters are formed based on the Ward's method criterion, which considers the increase in within-cluster variance.
+
+- linkage function: This function from the scipy.cluster.hierarchy module performs **hierarchical clustering**.
+- What is hierarchical clustering?
+
+Input:
+- 1 - similarity_matrix: The cosine similarity matrix is converted to a distance matrix by subtracting the similarity values from 1. This is because the linkage function expects a distance matrix, where lower values indicate more similarity.
+- method='ward': Ward's method is used for clustering. This method minimizes the total within-cluster variance. At each step, it merges the pair of clusters that leads to the smallest increase in total within-cluster variance.
 
 
+## Consolidation Result	
+#### Dendrogram for Model Clustering
+![image](https://github.com/user-attachments/assets/c3a880df-5835-44a0-ae04-3bcc39d0fe14)
 
-#### Sentiment Variables Selection and Description	
 
-The first 4 out of 10 sentiment variables come from published academic papers, studying the textual analysis for finance. 	
-The **Loughran-McDonald Master Dictionary w/ Sentiment Word Lists (LM word list)** come from [When Is a Liability Not a Liability? Textual Analysis, Dictionaries, and 10-Ks](https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2010.01625.x), and word list from **machine learning (ML) algorithm (ML word lists)** come from [The colour of finance words](https://www.sciencedirect.com/science/article/abs/pii/S0304405X22002422). Researchers in both papers improved the positive and negative word lists based on previous studies and created their own lists based on their textual analysis studies.	
-The corresponding word list can be found in the ```/input``` folder of the project repo:	
-
-1. ```LM_MasterDictionary_1993-2021.csv``` Loughran-McDonald Master Dictionary w/ Sentiment Word Lists	
-2. ```ML_negative_unigram.txt```	
-3. ```ML_positive_unigram.txt```	
-
-#### Processing Sentiment Variables	
-
-Before using the word lists to extract the sentiment from the report, we need to turn text into usable datasets by natural language processing (NLP).	
-
-“Anchor phrase” is a simple yet powerful technique we utilize here, and it allows python to look for a word (or words) near another word (or words) to see if (and how much) a document is discussing some topic. 	
-
-Professor Donald Bowen provides us with the following function in this project:	
-
-[NEAR_regax](https://github.com/LeDataSciFi/ledatascifi-2023/blob/main/community_codebook/near_regex.py) is a key function employed to modify word lists and enable python to parse through 10-K reports. This function conducts anchor phrase searches and leverages the power of regex while mostly keeping us away from the necessary work of writing a dang regex.	
-
-I downloaded the NEAR_regas function python file from the above link and saved it to my project folder. 	
-To use the function, I imported the function from the project folder by:	
-
-```python	
-from NEAR_regex import NEAR_regex	
-```	
-Then, we would load the word list and ensure the words are in list form. Then, we want to build a regex that looks for “hey” OR “hi” or “sup”, we need to implement these three things:	
-1. In regex, OR is “|”.	
-
-2. No spaces between terms	
-
-3. **Important: Put the parentheses around the whole set of terms!**	
-
-So, “hey” OR “hi” or “sup” becomes '(hey|hi|sup)'.	
-Here is the sample code: 	
-```python	
-LM_positive_for_regex = ['('+'|'.join(LM_positive)+')'] 	
-```	
-
-#### Cleaning 10-K files from SEC htmls	
-
-Next, we need to load and clean the context from 10-K reports in ```10k_files.zip``` in ```10k-file``` folder, and the specific method is located in the ```build_sample-ipynb```. 	
-After cleaning, we can extract the document's length and count the word occurrence from word lists, calculating sentiment scores by the equation provided above.	
-Sample code provided here:	
-```python	
-htmldf['LM_positive_score'] = htmldf['cleaned_html'].apply(lambda x:	
-    len(re.findall(NEAR_regex(LM_positive_for_regex), x))/len(x.split()))	
-```	
-
-#### Original Contextual Sentiment Selection	
-
-The rest of the 6 out of 10 sentiment variables are contextual sentiment variables that fit the overall analysis's purpose.	
-Here, I picked three topics for “Contextual” sentiment, which refers to the (positive and negative) sentiment of the text in a 10-K around discussions of a particular topic. Each topic gets a positive and negative sentiment score.	
-
-**Topic 1: Asset Return**	
-
-The topic of Asset Return comes from an academic paper on [Predicting Returns with Text Data](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3389884). 	
-Researchers introduce a new text-mining methodology that extracts sentiment information from news articles to predict asset returns. The paper presents a supervised learning framework that constructs a sentiment score that is specifically adapted to the problem of return prediction. In their study, I found word lists they use called "TableA.2: List of Top 50 Positive/Negative Sentiment Words" which fit the purpose of my sentiment analysis.	
-
-**Topic 2: Climate**	
-
-The topic of climate is chosen because 10-K reports provide important information about a company's financial performance and risks, including climate-related risks. Therefore, the topic of climate in 10-K reports matters for stock returns because investors are increasingly concerned about climate-related risks and the importance of ESG factors in investment decision-making. Failure to adequately disclose these risks or address sustainable practices can lead to a decline in stock price.	
-
-In recent years, there has been growing interest in understanding climate change's impact on businesses and its financial risks. However, there is a lack of research on how the sentiment of company reports on climate relates to their financial performance. To fill this gap, I used ChatGPT with GPT4 to analyze climate-related words in company reports and generate a list of 50 positive and 50 negative words. This approach allows insights into how companies communicate their stance on climate and whether it affects their stock returns. By leveraging GPT4's natural language processing capabilities, we can better understand how companies view climate change and sustainability and their impact on financial performance.	
-
-**Topic 3: Financial Constraint**	
-
-The topic of Condition for Financial Constraint comes from an academic paper on [Using 10-K Text to Gauge Financial Constraints](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2331544). 	
-The paper uses 10-K Text to Gauge Financial Constraints. The paper discusses how measuring the extent to which a firm is financially constrained is critical in assessing capital structure. The paper proposes a unique lexicon based on constraining words to parse 10-K disclosures filed with the SEC. The paper finds that the frequency of constraining words exhibits a very low correlation with traditional measures of financial constraints and predicts subsequent liquidity events—like dividend omissions or increases, equity recycling, and underfunded pensions—better than widely-used financial constraint indexes	
-
-As this paper presents a negative word list to measure a company's financial constraints, this approach can help identify potential financial struggles. Developing a positive word list that highlights companies that do not experience financial constraints or show signs of financial struggles may also be possible. On the other hand, this paper refers to constraining words only, which highlighted words indicative of a company's financial constraints or struggles. However, it did not provide a positive word list indicating whether companies do not experience financial constraints or show signs of financial struggles. I prompted ChatGPT, powered by GPT4, to create a 50 positive words list that could be used to measure whether a company was doing well financially.	
-
-The negative words from TABLE 3 are the Fifty Most Frequently Occurring Constraining Words in 10-Ks based on the study.	
+#### Clustering Result and Representative Models
+| Cluster | Representative Model Name                              | # of linked Portfolios | Cluster Size |
+|---------|--------------------------------------------------------|------------------------|--------------|
+| 1       | TIAA CREF University 1 Aggressive                      | 15                     | 5            |
+| 2       | TIAA CREF NQ 3 Moderate Fix                            | 1                      | 2            |
+| 3       | Hafkin-TIAA                                            | 1                      | 2            |
+| 4       | TIAA BROOKHAVEN 1 Aggressive                           | 1                      | 1            |
+| 5       | Schwab - NQ NTF 3 Moderate - National                  | 2                      | 12           |
+| 6       | Schwab - NQ NTF 4 ConservativePlus - OH                | 1                      | 3            |
+| 7       | Schwab - ESG - NQ Instl - 5 Conservative - National    | 1                      | 1            |
+| 8       | Schwab - NQ NTF 1 Aggressive - OH                      | 2                      | 6            |
+| 9       | Schwab - NQ NTF 2 ModeratePlus - OH                    | 23                     | 11           |
+| 10      | Schwab - ESG - Qualified NTF - 3 Moderate CCVA         | 5                      | 5            |
+| 11      | Schwab Ultra-Low-Cost - 3 - Mod                        | 72                     | 10           |
+| 12      | Schwab - Qualified CMP Institutional 5 Cons            | 2                      | 2            |
+| 13      | Fidelity OSU 3 -New                                    | 4                      | 3            |
+| 14      | Schwab - Qualified Institutional 5 Conservative        | 1                      | 9            |
+| 15      | Fidelity UCP 2 ModAgg 403(B)                           | 2                      | 8            |
+| 16      | Fidelity UC 2 ModAgg ARP_403b                          | 10                     | 6            |
+| 17      | Schwab Ultra-Low-Cost - 2 - ModAgg                     | 110                    | 13           |
+| 18      | TIAA CREF NW Childrens 403b_DC 1 Aggressive            | 2                      | 19           |
+| 19      | Schwab - Allocation - 1 - DGEIX                        | 2                      | 5            |
+| 20      | Schwab - Values - Sharia-Halal - Instl - 2 ModAgg      | 2                      | 1            |
+| 21      | Lincoln InvestorAdvtg Annuity - 2 ModeratePlus         | 2                      | 1            |
