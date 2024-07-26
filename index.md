@@ -45,6 +45,8 @@ _**[Sentiment Analysis on FY2022 10-K Reports from S&P 500 Companies: NLP Practi
 
 _**[Analyzing Bank of the West Lending Practices](https://github.com/LeDataSciFi/FinTech-Capstone-2023/?tab=readme-ov-file#executive-summary)**_
 
+In 2023, following its acquisition of Bank of the West (BOW), Bank of Montreal (BMO) aimed to ensure equitable lending practices. The study assessed BOW's lending behaviors by analyzing 2021 loan-level data from the Home Mortgage Disclosure Act (HMDA) and Census tract demographics for Arizona and California. Findings showed that BOW had fewer applications in high Black and Hispanic areas but lower denial rates than similar banks. In contrast, high Asian areas saw more applications but higher denial rates. The analysis provides insights for BMO Harris to serve underserved communities better.
+
 <img src="AnalyzingBankofWest/BofW_Image.jpg" alt="BofW Image">
 
 ---
