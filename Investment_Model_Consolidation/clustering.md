@@ -50,18 +50,17 @@ The data cleaning process is essential due to the presence of personalized model
 - Use clustering techniques to group similar models together.
 - We'll use hierarchical clustering to group similar models.
 
-Explanation of Ward's Method
+##### Explanation of Ward's Method
 - Ward's Method: This method minimizes the total within-cluster variance. At each step, it merges the pair of clusters that leads to the smallest increase in total within-cluster variance.
 - Advantages: Ward's method is effective in producing clusters of similar size and compactness, making it suitable for identifying distinct groups in the data.
 
-Classification Criteria
+##### Classification Criteria
 - Cosine Similarity: The similarity between models is based on the cosine of the angle between their sector composition vectors.
 - Linkage Criteria: The clusters are formed based on the Ward's method criterion, which considers the increase in within-cluster variance.
 
 - linkage function: This function from the scipy.cluster.hierarchy module performs **hierarchical clustering**.
-- What is hierarchical clustering?
 
-Input:
+##### Input:
 - 1 - similarity_matrix: The cosine similarity matrix is converted to a distance matrix by subtracting the similarity values from 1. This is because the linkage function expects a distance matrix, where lower values indicate more similarity.
 - method='ward': Ward's method is used for clustering. This method minimizes the total within-cluster variance. At each step, it merges the pair of clusters that leads to the smallest increase in total within-cluster variance.
 
@@ -72,6 +71,7 @@ Input:
 
 
 #### Clustering Result and Representative Models
+
 | Cluster | Representative Model Name                              | # of linked Portfolios | Cluster Size |
 |---------|--------------------------------------------------------|------------------------|--------------|
 | 1       | TIAA CREF University 1 Aggressive                      | 15                     | 5            |
