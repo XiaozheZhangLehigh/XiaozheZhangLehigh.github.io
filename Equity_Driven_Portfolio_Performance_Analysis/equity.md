@@ -25,7 +25,7 @@
 ### Data Sources (Bloomberg)
 
 **Equity: Standard & Poor's 500 Index (S&P 500)**
-= Description: The S&P 500 Index is a market-capitalization-weighted index that measures the stock performance of 500 of the largest companies listed on stock exchanges in the United States. It is considered a leading indicator of the overall performance of the U.S. stock market and economy.
+- Description: The S&P 500 Index is a market-capitalization-weighted index that measures the stock performance of 500 of the largest companies listed on stock exchanges in the United States. It is considered a leading indicator of the overall performance of the U.S. stock market and economy.
 
 **High-yield bond: Bloomberg Barclays US High-Yield Index**
 - Description: This index measures the market of USD-denominated, non-investment grade, fixed-rate, taxable corporate bonds.
