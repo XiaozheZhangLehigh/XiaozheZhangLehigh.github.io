@@ -76,6 +76,7 @@ The following Table shows the backtesting result for semi-annual rebalance becau
 #### Comparision between Baseline and Strategy Returns
 ![image](https://github.com/user-attachments/assets/2dd646cd-0ac6-4006-9ee0-60b55ad210a0)
 
+
 ##### JS Strategy
 Significant Points on JS Strategy (over 1% difference)
 | Background              | Date       | Baseline Daily Return | Strategy Daily Return | Strategy Performance |
@@ -119,44 +120,10 @@ Significant Points on JE Strategy (over 1% difference)
 | Early 1990s recession   | 1991-03-28 | 0.12%                 | 1.15%                 | <span style="color:green">Outperform</span>            |
 
 
-#### Classification Criteria
-- Cosine Similarity: The similarity between models is based on the cosine of the angle between their sector composition vectors.
-- Linkage Criteria: The clusters are formed based on the Ward's method criterion, which considers the increase in within-cluster variance.
+#### Annual Returns and Monthly Return Distributions Strategy Comparison
+<img width="624" alt="image" src="https://github.com/user-attachments/assets/f8ec3555-5c1a-45c4-b00e-2152fb9cd881">
 
-- linkage function: This function from the scipy.cluster.hierarchy module performs **hierarchical clustering**.
+#### Tax Consideration:
+<img width="901" alt="image" src="https://github.com/user-attachments/assets/73098a1c-46e4-4f12-a459-6d5cf423936a">
 
-#### Input:
-- 1 - similarity_matrix: The cosine similarity matrix is converted to a distance matrix by subtracting the similarity values from 1. This is because the linkage function expects a distance matrix, where lower values indicate more similarity.
-- method='ward': Ward's method is used for clustering. This method minimizes the total within-cluster variance. At each step, it merges the pair of clusters that leads to the smallest increase in total within-cluster variance.
-
-
-## Consolidation Result	
-#### Dendrogram for Model Clustering
-![image](https://github.com/user-attachments/assets/c3a880df-5835-44a0-ae04-3bcc39d0fe14)
-
-
-#### Clustering Result and Representative Models
-
-| Cluster | Representative Model Name                              | # of linked Portfolios | Cluster Size |
-|---------|--------------------------------------------------------|------------------------|--------------|
-| 1       | TIAA CREF University 1 Aggressive                      | 15                     | 5            |
-| 2       | TIAA CREF NQ 3 Moderate Fix                            | 1                      | 2            |
-| 3       | Hafkin-TIAA                                            | 1                      | 2            |
-| 4       | TIAA BROOKHAVEN 1 Aggressive                           | 1                      | 1            |
-| 5       | Schwab - NQ NTF 3 Moderate - National                  | 2                      | 12           |
-| 6       | Schwab - NQ NTF 4 ConservativePlus - OH                | 1                      | 3            |
-| 7       | Schwab - ESG - NQ Instl - 5 Conservative - National    | 1                      | 1            |
-| 8       | Schwab - NQ NTF 1 Aggressive - OH                      | 2                      | 6            |
-| 9       | Schwab - NQ NTF 2 ModeratePlus - OH                    | 23                     | 11           |
-| 10      | Schwab - ESG - Qualified NTF - 3 Moderate CCVA         | 5                      | 5            |
-| 11      | Schwab Ultra-Low-Cost - 3 - Mod                        | 72                     | 10           |
-| 12      | Schwab - Qualified CMP Institutional 5 Cons            | 2                      | 2            |
-| 13      | Fidelity OSU 3 -New                                    | 4                      | 3            |
-| 14      | Schwab - Qualified Institutional 5 Conservative        | 1                      | 9            |
-| 15      | Fidelity UCP 2 ModAgg 403(B)                           | 2                      | 8            |
-| 16      | Fidelity UC 2 ModAgg ARP_403b                          | 10                     | 6            |
-| 17      | Schwab Ultra-Low-Cost - 2 - ModAgg                     | 110                    | 13           |
-| 18      | TIAA CREF NW Childrens 403b_DC 1 Aggressive            | 2                      | 19           |
-| 19      | Schwab - Allocation - 1 - DGEIX                        | 2                      | 5            |
-| 20      | Schwab - Values - Sharia-Halal - Instl - 2 ModAgg      | 2                      | 1            |
-| 21      | Lincoln InvestorAdvtg Annuity - 2 ModeratePlus         | 2                      | 1            |
+The above plot only illustrates how different tax rates affect the return, but it does not incorporate the capital-gain and income tax brackets. Bonds spin off regular income payments that are taxed at ordinary tax rates, while the dividend payments from equities and equity funds are taxed at the same lower rates that apply to long-term capital gains, provided the dividends are qualified. From that perspective, fixed-income securities make the most sense in tax sheltered accounts, where their regular distributions can be reinvested and compounded without taxation until withdrawal time, while equities are better suited for taxable accounts. 
