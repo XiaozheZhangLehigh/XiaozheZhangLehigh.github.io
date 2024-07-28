@@ -74,11 +74,9 @@ The following Table shows the backtesting result for semi-annual rebalance becau
 
 
 #### Comparision between Baseline and Strategy Returns
-![image](https://github.com/user-attachments/assets/2dd646cd-0ac6-4006-9ee0-60b55ad210a0)
-
-
 
 ##### JS Strategy
+![image](https://github.com/user-attachments/assets/2dd646cd-0ac6-4006-9ee0-60b55ad210a0)
 Significant Points on JS Strategy (over 1% difference)
 
 | Background              | Date       | Baseline Daily Return | Strategy Daily Return | Strategy Performance |
