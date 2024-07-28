@@ -73,26 +73,26 @@ The following Table shows the backtesting result for semi-annual rebalance becau
 
 #### Bar Plot Comparison of Return and Risk Metrics
 
-<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-    <div style="margin: 10px;">
+<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+    <div style="margin: 10px; width: 45%;">
         <h5>Return Metrics</h5>
-        <img src="https://github.com/user-attachments/assets/598852b1-d46f-4c56-88ed-d635917abf10" alt="Return Metrics" style="width:300px;">
+        <img src="https://github.com/user-attachments/assets/598852b1-d46f-4c56-88ed-d635917abf10" alt="Return Metrics" style="width: 100%;">
     </div>
-    <div style="margin: 10px;">
+    <div style="margin: 10px; width: 45%;">
         <h5>Risk Metrics</h5>
-        <img src="https://github.com/user-attachments/assets/1597cd1b-7177-4919-b328-ed681867ce33" alt="Risk Metrics" style="width:300px;">
+        <img src="https://github.com/user-attachments/assets/1597cd1b-7177-4919-b328-ed681867ce33" alt="Risk Metrics" style="width: 100%;">
     </div>
-    <div style="margin: 10px;">
+    <div style="margin: 10px; width: 45%;">
         <h5>Sharpe Ratio</h5>
-        <img src="https://github.com/user-attachments/assets/0edd97e1-6538-4bd2-afef-fbcbdd28fb1d" alt="Sharpe Ratio" style="width:300px;">
+        <img src="https://github.com/user-attachments/assets/0edd97e1-6538-4bd2-afef-fbcbdd28fb1d" alt="Sharpe Ratio" style="width: 100%;">
     </div>
-    <div style="margin: 10px;">
+    <div style="margin: 10px; width: 45%;">
         <h5>Max Drawdown</h5>
-        <img src="https://github.com/user-attachments/assets/7786b807-602a-4cb1-86fb-b534d8b2fe29" alt="Max Drawdown" style="width:300px;">
+        <img src="https://github.com/user-attachments/assets/7786b807-602a-4cb1-86fb-b534d8b2fe29" alt="Max Drawdown" style="width: 100%;">
     </div>
-    <div style="margin: 10px;">
+    <div style="margin: 10px; width: 45%;">
         <h5>Annualized Volatility</h5>
-        <img src="https://github.com/user-attachments/assets/768112d8-2103-4d81-ba6d-d4b8b64e2f79" alt="Annualized Volatility" style="width:300px;">
+        <img src="https://github.com/user-attachments/assets/768112d8-2103-4d81-ba6d-d4b8b64e2f79" alt="Annualized Volatility" style="width: 100%;">
     </div>
 </div>
 
