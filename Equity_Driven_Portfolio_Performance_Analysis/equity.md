@@ -64,12 +64,6 @@ The following Table shows the backtesting result for semi-annual rebalance becau
 
 
 #### Bar Plot Comparison of Return and Risk Metrics
-![image](https://github.com/user-attachments/assets/598852b1-d46f-4c56-88ed-d635917abf10)
-![image](https://github.com/user-attachments/assets/1597cd1b-7177-4919-b328-ed681867ce33)
-![image](https://github.com/user-attachments/assets/0edd97e1-6538-4bd2-afef-fbcbdd28fb1d)
-![image](https://github.com/user-attachments/assets/7786b807-602a-4cb1-86fb-b534d8b2fe29)
-![image](https://github.com/user-attachments/assets/768112d8-2103-4d81-ba6d-d4b8b64e2f79)
-
 ![image_return](https://github.com/user-attachments/assets/b6f5b789-044d-42eb-96ba-75cbbcd6dec8)
 
 #### Key Insight from bar plot comparison:
