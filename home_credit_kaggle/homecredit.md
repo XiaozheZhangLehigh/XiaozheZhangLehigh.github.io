@@ -11,7 +11,7 @@ Founded in 1997, competition host Home Credit is an international consumer finan
 Your work in helping to assess potential clients' default risks will enable consumer finance providers to accept more loan applications. This may improve the lives of people who have historically been denied due to lack of credit history.
 
 ## Competition Result: Silver Medal (35/3856)
-![kaggle](https://github.com/user-attachments/assets/e313b6bb-5a9b-4bc9-8393-48d00e0b8308)
+<img src="https://github.com/user-attachments/assets/e313b6bb-5a9b-4bc9-8393-48d00e0b8308" alt="kaggle" style="width:70%;">
 
 ## Data Integration and Preprocessing
 
