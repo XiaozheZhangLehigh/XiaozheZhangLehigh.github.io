@@ -70,6 +70,8 @@ The following Table shows the backtesting result for semi-annual rebalance becau
 ![image](https://github.com/user-attachments/assets/7786b807-602a-4cb1-86fb-b534d8b2fe29)
 ![image](https://github.com/user-attachments/assets/768112d8-2103-4d81-ba6d-d4b8b64e2f79)
 
+![image_return](https://github.com/user-attachments/assets/b6f5b789-044d-42eb-96ba-75cbbcd6dec8)
+
 #### Key Insight from bar plot comparison:
 - JB Strategy: Ideal for aggressive investors focused on maximizing returns and willing to accept higher drawdown and volatility.
 - JS Strategy: Best for those prioritizing risk-adjusted returns, offering a good Sharpe ratio and moderate risk.
