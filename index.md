@@ -45,6 +45,13 @@ _**[Johnson Controls Internship Project SGA Account Optimization Analysis](/JCI/
 
 <!-- You can link to other websites, PDFs in this repo, and other pages in this repo -->
 
+_**[Home Credit - Credit Risk Model Stability, Silver Medal (35/3856) ------ Kaggle Competition](/home_credit_kaggle/homecredit.md)**_
+
+<img src="home_credit_kaggle/HomeCredit.jpg?raw=true" style="width:70%;"/>
+
+
+---
+
 _**[Sentiment Analysis on FY2022 10-K Reports from S&P 500 Companies: NLP Practice](NLP_report/report.md)**_
 
 <img src="NLP_report/output_34_0.png?raw=true"/>
@@ -58,12 +65,6 @@ In 2023, following its acquisition of Bank of the West (BOW), Bank of Montreal (
 
 ---
 
-_**[Home Credit - Credit Risk Model Stability, Silver Medal (35/3856) ------ Kaggle Competition](/home_credit_kaggle/homecredit.md)**_
-
-<img src="home_credit_kaggle/HomeCredit.jpg?raw=true" style="width:70%;"/>
-
-
----
 
 ## Career Objectives
 
