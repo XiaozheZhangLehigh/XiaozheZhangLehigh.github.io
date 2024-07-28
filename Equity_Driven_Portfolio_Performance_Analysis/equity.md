@@ -37,13 +37,13 @@
 ### Exploratory Analysis
 
 #### Index Growth (1983-2024)
-<img src="https://github.com/user-attachments/assets/ef4453fd-4a6e-4a24-993c-51e08319a15a" alt="Index Growth" style="width:70%;">
+<img src="https://github.com/user-attachments/assets/ef4453fd-4a6e-4a24-993c-51e08319a15a" alt="Index Growth">
 
 #### Annualized Volatility
-<img src="https://github.com/user-attachments/assets/aff6f67b-a49d-458b-ab81-f79532f8e581" alt="Annualized Volatility" style="width:70%;">
+<img src="https://github.com/user-attachments/assets/aff6f67b-a49d-458b-ab81-f79532f8e581" alt="Annualized Volatility">
 
 #### Drawdown
-<img src="https://github.com/user-attachments/assets/8355199c-45ee-41c7-8a49-10878fd94209" alt="Drawdown" style="width:70%;">
+<img src="https://github.com/user-attachments/assets/8355199c-45ee-41c7-8a49-10878fd94209" alt="Drawdown">
 
 ## Allocation Strategies
 Testing Period: 1983-08-01 - 2024-06-25
