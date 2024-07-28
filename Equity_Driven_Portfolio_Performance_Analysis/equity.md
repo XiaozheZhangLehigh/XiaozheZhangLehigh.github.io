@@ -70,36 +70,6 @@ The following Table shows the backtesting result for semi-annual rebalance becau
 ![image](https://github.com/user-attachments/assets/7786b807-602a-4cb1-86fb-b534d8b2fe29)
 ![image](https://github.com/user-attachments/assets/768112d8-2103-4d81-ba6d-d4b8b64e2f79)
 
-
-#### Bar Plot Comparison of Return and Risk Metrics
-
-<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
-    <div style="margin: 10px; width: 45%;">
-        <h5>Metric 1</h5>
-        <img src="https://github.com/user-attachments/assets/598852b1-d46f-4c56-88ed-d635917abf10" alt="Metric 1" style="width: 100%;">
-    </div>
-    <div style="margin: 10px; width: 45%;">
-        <h5>Metric 2</h5>
-        <img src="https://github.com/user-attachments/assets/1597cd1b-7177-4919-b328-ed681867ce33" alt="Metric 2" style="width: 100%;">
-    </div>
-    <div style="margin: 10px; width: 45%;">
-        <h5>Metric 3</h5>
-        <img src="https://github.com/user-attachments/assets/0edd97e1-6538-4bd2-afef-fbcbdd28fb1d" alt="Metric 3" style="width: 100%;">
-    </div>
-    <div style="margin: 10px; width: 45%;">
-        <h5>Metric 4</h5>
-        <img src="https://github.com/user-attachments/assets/7786b807-602a-4cb1-86fb-b534d8b2fe29" alt="Metric 4" style="width: 100%;">
-    </div>
-    <div style="margin: 10px; width: 45%;">
-        <h5>Metric 5</h5>
-        <img src="https://github.com/user-attachments/assets/768112d8-2103-4d81-ba6d-d4b8b64e2f79" alt="Metric 5" style="width: 100%;">
-    </div>
-    <div style="margin: 10px; width: 70%;">
-        <h5>Annualized Volatility</h5>
-        <img src="https://github.com/user-attachments/assets/aff6f67b-a49d-458b-ab81-f79532f8e581" alt="Annualized Volatility" style="width: 100%;">
-    </div>
-</div>
-
 #### Key Insight from bar plot comparison:
 - JB Strategy: Ideal for aggressive investors focused on maximizing returns and willing to accept higher drawdown and volatility.
 - JS Strategy: Best for those prioritizing risk-adjusted returns, offering a good Sharpe ratio and moderate risk.
