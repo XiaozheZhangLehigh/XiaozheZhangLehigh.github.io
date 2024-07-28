@@ -60,7 +60,7 @@ In 2023, following its acquisition of Bank of the West (BOW), Bank of Montreal (
 
 _**[Home Credit - Credit Risk Model Stability, Silver Medal (35/3856) ------ Kaggle Competition](/home_credit_kaggle/homecredit.md)**_
 
-<img src="home_credit_kaggle/HomeCredit.jpg=true"/>
+<img src="home_credit_kaggle/HomeCredit.jpg?raw=true" style="width:70%;"/>
 
 
 ---
