@@ -76,6 +76,7 @@ The following Table shows the backtesting result for semi-annual rebalance becau
 #### Comparision between Baseline and Strategy Returns
 ![image](https://github.com/user-attachments/assets/2dd646cd-0ac6-4006-9ee0-60b55ad210a0)
 
+##### JS Strategy
 Significant Points on JS Strategy (over 1% difference)
 | Background              | Date       | Baseline Daily Return | Strategy Daily Return | Strategy Performance |
 |-------------------------|------------|-----------------------|-----------------------|-----------------------|
@@ -92,6 +93,8 @@ Significant Points on JS Strategy (over 1% difference)
 | 2007–2008 financial crisis | 2008-11-21 | 3.32%                 | 2.31%                 | <span style="color:red">Underperform</span>          |
 | 2007–2008 financial crisis | 2008-12-01 | -4.43%                | -3.36%                | <span style="color:green">Outperform</span>            |
 
+
+##### JB Strategy
 ![image](https://github.com/user-attachments/assets/8b03651f-fce1-4b77-9fbd-13c296b30e0b)
 Significant Points on JB Strategy (over 1% difference)
 | Background              | Date       | Baseline Daily Return | Strategy Daily Return | Strategy Performance |
@@ -103,6 +106,7 @@ Significant Points on JB Strategy (over 1% difference)
 | Early 1990s recession   | 1991-03-28 | 0.12%                 | 1.13%                 | <span style="color:green">Outperform</span>            |
 
 
+##### JE Strategy
 ![image](https://github.com/user-attachments/assets/d3688641-2106-4011-b71b-65f77732681e)
 Significant Points on JE Strategy (over 1% difference)
 | Background              | Date       | Baseline Daily Return | Strategy Daily Return | Strategy Performance |
