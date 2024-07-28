@@ -36,13 +36,13 @@
 
 ### Exploratory Analysis
 
-##### Index Growth (1983-2024)
+#### Index Growth (1983-2024)
 <img src="https://github.com/user-attachments/assets/ef4453fd-4a6e-4a24-993c-51e08319a15a" alt="Index Growth" style="width:70%;">
 
-##### Annualized Volatility
+#### Annualized Volatility
 <img src="https://github.com/user-attachments/assets/aff6f67b-a49d-458b-ab81-f79532f8e581" alt="Annualized Volatility" style="width:70%;">
 
-##### Drawdown
+#### Drawdown
 <img src="https://github.com/user-attachments/assets/8355199c-45ee-41c7-8a49-10878fd94209" alt="Drawdown" style="width:70%;">
 
 ## Allocation Strategies
@@ -57,30 +57,75 @@ The following Table shows the backtesting result for semi-annual rebalance becau
 | JE_Strategy | 0.45   | 0.10            | 0.45           | **25.031**   | 0.057             | 0.067                 | 0.854        | -0.310       | 2009-03-09         |
 
 
-#### Cluster Analysis
+## Backtesting Result
+#### Growth Plot Comparison: semi-annual rebalance 
 
-**Cosine similarity** is easily interpretable since it is bounded between zero and one. Thus, two insurers with identical portfolios will have a cosine similarity equal to one; two insurers whose portfolios are completely different will have a cosine similarity equal to zero.
+![image](https://github.com/user-attachments/assets/11e20988-a0d7-4032-873e-4b3111aa98f1)
 
-##### Step 1: Calculate Similarity
-- Calculate the similarity between models based on their sector allocations.
-- We'll use cosine similarity to measure the similarity between models.
-- Identify Similar Models if the similarity score is between 0.95 - 0.99999
 
-##### Step 2: Cluster Models
-- Use clustering techniques to group similar models together.
-- We'll use hierarchical clustering to group similar models.
+#### Bar Plot Comparison of Return and Risk Metrics
+![image](https://github.com/user-attachments/assets/598852b1-d46f-4c56-88ed-d635917abf10)
+![image](https://github.com/user-attachments/assets/1597cd1b-7177-4919-b328-ed681867ce33)
+![image](https://github.com/user-attachments/assets/0edd97e1-6538-4bd2-afef-fbcbdd28fb1d)
+![image](https://github.com/user-attachments/assets/7786b807-602a-4cb1-86fb-b534d8b2fe29)
+![image](https://github.com/user-attachments/assets/768112d8-2103-4d81-ba6d-d4b8b64e2f79)
 
-##### Explanation of Ward's Method
-- Ward's Method: This method minimizes the total within-cluster variance. At each step, it merges the pair of clusters that leads to the smallest increase in total within-cluster variance.
-- Advantages: Ward's method is effective in producing clusters of similar size and compactness, making it suitable for identifying distinct groups in the data.
+#### Key Insight from bar plot comparison:
+- JB Strategy: Ideal for aggressive investors focused on maximizing returns and willing to accept higher drawdown and volatility.
+- JS Strategy: Best for those prioritizing risk-adjusted returns, offering a good Sharpe ratio and moderate risk.
+- JE Strategy: Suitable for investors seeking a balanced approach with moderate performance across all metrics.
+- Baseline Strategy: Provides a reference point, showing moderate returns and risk, and can be considered a conservative choice.
 
-##### Classification Criteria
+
+#### Comparision between Baseline and Strategy Returns
+![image](https://github.com/user-attachments/assets/2dd646cd-0ac6-4006-9ee0-60b55ad210a0)
+
+Significant Points on JS Strategy (over 1% difference)
+| Background              | Date       | Baseline Daily Return | Strategy Daily Return | Strategy Performance |
+|-------------------------|------------|-----------------------|-----------------------|-----------------------|
+| Black Monday            | 1987-10-19 | -9.92%                | -7.33%                | Outperform            |
+| Black Monday            | 1987-10-21 | 4.41%                 | 3.26%                 | Underperform          |
+| Black Monday            | 1987-10-26 | -4.01%                | -2.96%                | Outperform            |
+| Black Monday            | 1987-10-30 | 3.23%                 | 2.18%                 | Underperform          |
+| Early 1990s recession   | 1990-08-31 | 0.67%                 | -0.47%                | Underperform          |
+| Early 1990s recession   | 1990-09-28 | 1.11%                 | -0.39%                | Underperform          |
+| Early 1990s recession   | 1991-02-28 | -0.09%                | 1.91%                 | Outperform            |
+| Early 1990s recession   | 1991-03-28 | 0.12%                 | 1.17%                 | Outperform            |
+| 2007–2008 financial crisis | 2008-10-13 | 6.06%                 | 4.63%                 | Underperform          |
+| 2007–2008 financial crisis | 2008-10-28 | 5.44%                 | 4.16%                 | Underperform          |
+| 2007–2008 financial crisis | 2008-11-21 | 3.32%                 | 2.31%                 | Underperform          |
+| 2007–2008 financial crisis | 2008-12-01 | -4.43%                | -3.36%                | Outperform            |
+
+![image](https://github.com/user-attachments/assets/8b03651f-fce1-4b77-9fbd-13c296b30e0b)
+Significant Points on JB Strategy (over 1% difference)
+| Background              | Date       | Baseline Daily Return | Strategy Daily Return | Strategy Performance |
+|-------------------------|------------|-----------------------|-----------------------|-----------------------|
+| Black Monday            | 1987-10-30 | 3.23%                 | 2.11%                 | Underperform          |
+| Early 1990s recession   | 1990-08-31 | 0.67%                 | -0.34%                | Underperform          |
+| Early 1990s recession   | 1990-09-28 | 1.11%                 | -0.24%                | Underperform          |
+| Early 1990s recession   | 1991-02-28 | -0.09%                | 1.85%                 | Outperform            |
+| Early 1990s recession   | 1991-03-28 | 0.12%                 | 1.13%                 | Outperform            |
+
+
+![image](https://github.com/user-attachments/assets/d3688641-2106-4011-b71b-65f77732681e)
+Significant Points on JE Strategy (over 1% difference)
+| Background              | Date       | Baseline Daily Return | Strategy Daily Return | Strategy Performance |
+|-------------------------|------------|-----------------------|-----------------------|-----------------------|
+| Black Monday            | 1987-10-19 | -9.92%                | -8.27%                | Outperform            |
+| Black Monday            | 1987-10-30 | 3.23%                 | 2.14%                 | Underperform          |
+| Early 1990s recession   | 1990-08-31 | 0.67%                 | -0.40%                | Underperform          |
+| Early 1990s recession   | 1990-09-28 | 1.11%                 | -0.31%                | Underperform          |
+| Early 1990s recession   | 1991-02-28 | -0.09%                | 1.88%                 | Outperform            |
+| Early 1990s recession   | 1991-03-28 | 0.12%                 | 1.15%                 | Outperform            |
+
+
+#### Classification Criteria
 - Cosine Similarity: The similarity between models is based on the cosine of the angle between their sector composition vectors.
 - Linkage Criteria: The clusters are formed based on the Ward's method criterion, which considers the increase in within-cluster variance.
 
 - linkage function: This function from the scipy.cluster.hierarchy module performs **hierarchical clustering**.
 
-##### Input:
+#### Input:
 - 1 - similarity_matrix: The cosine similarity matrix is converted to a distance matrix by subtracting the similarity values from 1. This is because the linkage function expects a distance matrix, where lower values indicate more similarity.
 - method='ward': Ward's method is used for clustering. This method minimizes the total within-cluster variance. At each step, it merges the pair of clusters that leads to the smallest increase in total within-cluster variance.
 
