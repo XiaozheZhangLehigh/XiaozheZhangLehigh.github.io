@@ -83,18 +83,18 @@ The following Table shows the backtesting result for semi-annual rebalance becau
 Significant Points on JS Strategy (over 1% difference)
 | Background              | Date       | Baseline Daily Return | Strategy Daily Return | Strategy Performance |
 |-------------------------|------------|-----------------------|-----------------------|-----------------------|
-| Black Monday            | 1987-10-19 | -9.92%                | -7.33%                | Outperform            |
-| Black Monday            | 1987-10-21 | 4.41%                 | 3.26%                 | Underperform          |
-| Black Monday            | 1987-10-26 | -4.01%                | -2.96%                | Outperform            |
-| Black Monday            | 1987-10-30 | 3.23%                 | 2.18%                 | Underperform          |
-| Early 1990s recession   | 1990-08-31 | 0.67%                 | -0.47%                | Underperform          |
-| Early 1990s recession   | 1990-09-28 | 1.11%                 | -0.39%                | Underperform          |
-| Early 1990s recession   | 1991-02-28 | -0.09%                | 1.91%                 | Outperform            |
-| Early 1990s recession   | 1991-03-28 | 0.12%                 | 1.17%                 | Outperform            |
-| 2007–2008 financial crisis | 2008-10-13 | 6.06%                 | 4.63%                 | Underperform          |
-| 2007–2008 financial crisis | 2008-10-28 | 5.44%                 | 4.16%                 | Underperform          |
-| 2007–2008 financial crisis | 2008-11-21 | 3.32%                 | 2.31%                 | Underperform          |
-| 2007–2008 financial crisis | 2008-12-01 | -4.43%                | -3.36%                | Outperform            |
+| Black Monday            | 1987-10-19 | -9.92%                | -7.33%                | <span style="color:green">Outperform</span>            |
+| Black Monday            | 1987-10-21 | 4.41%                 | 3.26%                 | <span style="color:red">Underperform</span>          |
+| Black Monday            | 1987-10-26 | -4.01%                | -2.96%                | <span style="color:green">Outperform</span>            |
+| Black Monday            | 1987-10-30 | 3.23%                 | 2.18%                 | <span style="color:red">Underperform</span>          |
+| Early 1990s recession   | 1990-08-31 | 0.67%                 | -0.47%                | <span style="color:red">Underperform</span>          |
+| Early 1990s recession   | 1990-09-28 | 1.11%                 | -0.39%                | <span style="color:red">Underperform</span>          |
+| Early 1990s recession   | 1991-02-28 | -0.09%                | 1.91%                 | <span style="color:green">Outperform</span>            |
+| Early 1990s recession   | 1991-03-28 | 0.12%                 | 1.17%                 | <span style="color:green">Outperform</span>            |
+| 2007–2008 financial crisis | 2008-10-13 | 6.06%                 | 4.63%                 | <span style="color:red">Underperform</span>          |
+| 2007–2008 financial crisis | 2008-10-28 | 5.44%                 | 4.16%                 | <span style="color:red">Underperform</span>          |
+| 2007–2008 financial crisis | 2008-11-21 | 3.32%                 | 2.31%                 | <span style="color:red">Underperform</span>          |
+| 2007–2008 financial crisis | 2008-12-01 | -4.43%                | -3.36%                | <span style="color:green">Outperform</span>            |
 
 ![image](https://github.com/user-attachments/assets/8b03651f-fce1-4b77-9fbd-13c296b30e0b)
 Significant Points on JB Strategy (over 1% difference)
