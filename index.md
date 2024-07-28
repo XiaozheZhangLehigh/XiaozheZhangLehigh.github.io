@@ -58,9 +58,9 @@ In 2023, following its acquisition of Bank of the West (BOW), Bank of Montreal (
 
 ---
 
-_**[Johnson Controls Internship Project SGA Account Optimization Analysis](/JCI/JCIinternship.md)**_
+_**[Home Credit - Credit Risk Model Stability, Silver Medal (35/3856) ------ Kaggle Competition](/home_credit_kaggle/homecredit.md)**_
 
-<img src="JCI/Figure/Figure4.png?raw=true"/>
+<img src="home_credit_kaggle/HomeCredit.jpg=true"/>
 
 
 ---
