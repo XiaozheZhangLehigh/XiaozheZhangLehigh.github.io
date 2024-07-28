@@ -80,6 +80,7 @@ The following Table shows the backtesting result for semi-annual rebalance becau
 
 ##### JS Strategy
 Significant Points on JS Strategy (over 1% difference)
+
 | Background              | Date       | Baseline Daily Return | Strategy Daily Return | Strategy Performance |
 |-------------------------|------------|-----------------------|-----------------------|-----------------------|
 | Black Monday            | 1987-10-19 | -9.92%                | -7.33%                | <span style="color:green">Outperform</span>            |
@@ -100,6 +101,7 @@ Significant Points on JS Strategy (over 1% difference)
 ##### JB Strategy
 ![image](https://github.com/user-attachments/assets/8b03651f-fce1-4b77-9fbd-13c296b30e0b)
 Significant Points on JB Strategy (over 1% difference)
+
 | Background              | Date       | Baseline Daily Return | Strategy Daily Return | Strategy Performance |
 |-------------------------|------------|-----------------------|-----------------------|-----------------------|
 | Black Monday            | 1987-10-30 | 3.23%                 | 2.11%                 | <span style="color:red">Underperform</span>          |
@@ -113,6 +115,7 @@ Significant Points on JB Strategy (over 1% difference)
 ##### JE Strategy
 ![image](https://github.com/user-attachments/assets/d3688641-2106-4011-b71b-65f77732681e)
 Significant Points on JE Strategy (over 1% difference)
+
 | Background              | Date       | Baseline Daily Return | Strategy Daily Return | Strategy Performance |
 |-------------------------|------------|-----------------------|-----------------------|-----------------------|
 | Black Monday            | 1987-10-19 | -9.92%                | -8.27%                | <span style="color:green">Outperform</span>            |
