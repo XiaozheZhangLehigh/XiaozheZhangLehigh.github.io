@@ -35,13 +35,27 @@
 
 
 ### Exploratory Analysis
-Cumulative Return
 
-**Data Cleaning:**
+##### Index Growth (1983-2024)
+<img src="https://github.com/user-attachments/assets/ef4453fd-4a6e-4a24-993c-51e08319a15a" alt="Index Growth" style="width:70%;">
 
-The data cleaning process is essential due to the presence of personalized models tailored for specific clients and niche models, including those focused on cryptocurrencies, 401k plans, and 529 college savings accounts. Ensuring the consistency and accuracy of these models is crucial for reliable analysis and interpretation.
+##### Annualized Volatility
+<img src="https://github.com/user-attachments/assets/aff6f67b-a49d-458b-ab81-f79532f8e581" alt="Annualized Volatility" style="width:70%;">
 
-## Method
+##### Drawdown
+<img src="https://github.com/user-attachments/assets/8355199c-45ee-41c7-8a49-10878fd94209" alt="Drawdown" style="width:70%;">
+
+## Allocation Strategies
+Testing Period: 1983-08-01 - 2024-06-25
+The following Table shows the backtesting result for semi-annual rebalance because it has the best result:
+
+| Portfolios  | Equity | HighYield Bonds | InvGrade Bonds | Total Return | Annualized Return | Annualized Volatility | Sharpe Ratio | Max Drawdown | Max Drawdown Date |
+|-------------|--------|-----------------|----------------|--------------|-------------------|-----------------------|--------------|--------------|--------------------|
+| Baseline    | 0.50   | 0.00            | 0.50           | **24.016**   | 0.057             | 0.076                 | 0.752        | -0.316       | 2009-03-09         |
+| JS_Strategy | 0.40   | 0.10            | 0.50           | **23.655**   | 0.056             | 0.061                 | 0.918        | -0.281       | 2009-03-09         |
+| JB_Strategy | 0.50   | 0.10            | 0.40           | **26.381**   | 0.059             | 0.073                 | 0.799        | -0.338       | 2009-03-09         |
+| JE_Strategy | 0.45   | 0.10            | 0.45           | **25.031**   | 0.057             | 0.067                 | 0.854        | -0.310       | 2009-03-09         |
+
 
 #### Cluster Analysis
 
