@@ -70,6 +70,32 @@ The following Table shows the backtesting result for semi-annual rebalance becau
 ![image](https://github.com/user-attachments/assets/7786b807-602a-4cb1-86fb-b534d8b2fe29)
 ![image](https://github.com/user-attachments/assets/768112d8-2103-4d81-ba6d-d4b8b64e2f79)
 
+
+#### Bar Plot Comparison of Return and Risk Metrics
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+    <div style="margin: 10px;">
+        <h5>Return Metrics</h5>
+        <img src="https://github.com/user-attachments/assets/598852b1-d46f-4c56-88ed-d635917abf10" alt="Return Metrics" style="width:300px;">
+    </div>
+    <div style="margin: 10px;">
+        <h5>Risk Metrics</h5>
+        <img src="https://github.com/user-attachments/assets/1597cd1b-7177-4919-b328-ed681867ce33" alt="Risk Metrics" style="width:300px;">
+    </div>
+    <div style="margin: 10px;">
+        <h5>Sharpe Ratio</h5>
+        <img src="https://github.com/user-attachments/assets/0edd97e1-6538-4bd2-afef-fbcbdd28fb1d" alt="Sharpe Ratio" style="width:300px;">
+    </div>
+    <div style="margin: 10px;">
+        <h5>Max Drawdown</h5>
+        <img src="https://github.com/user-attachments/assets/7786b807-602a-4cb1-86fb-b534d8b2fe29" alt="Max Drawdown" style="width:300px;">
+    </div>
+    <div style="margin: 10px;">
+        <h5>Annualized Volatility</h5>
+        <img src="https://github.com/user-attachments/assets/768112d8-2103-4d81-ba6d-d4b8b64e2f79" alt="Annualized Volatility" style="width:300px;">
+    </div>
+</div>
+
 #### Key Insight from bar plot comparison:
 - JB Strategy: Ideal for aggressive investors focused on maximizing returns and willing to accept higher drawdown and volatility.
 - JS Strategy: Best for those prioritizing risk-adjusted returns, offering a good Sharpe ratio and moderate risk.
@@ -100,23 +126,23 @@ Significant Points on JS Strategy (over 1% difference)
 Significant Points on JB Strategy (over 1% difference)
 | Background              | Date       | Baseline Daily Return | Strategy Daily Return | Strategy Performance |
 |-------------------------|------------|-----------------------|-----------------------|-----------------------|
-| Black Monday            | 1987-10-30 | 3.23%                 | 2.11%                 | Underperform          |
-| Early 1990s recession   | 1990-08-31 | 0.67%                 | -0.34%                | Underperform          |
-| Early 1990s recession   | 1990-09-28 | 1.11%                 | -0.24%                | Underperform          |
-| Early 1990s recession   | 1991-02-28 | -0.09%                | 1.85%                 | Outperform            |
-| Early 1990s recession   | 1991-03-28 | 0.12%                 | 1.13%                 | Outperform            |
+| Black Monday            | 1987-10-30 | 3.23%                 | 2.11%                 | <span style="color:red">Underperform</span>          |
+| Early 1990s recession   | 1990-08-31 | 0.67%                 | -0.34%                | <span style="color:red">Underperform</span>          |
+| Early 1990s recession   | 1990-09-28 | 1.11%                 | -0.24%                | <span style="color:red">Underperform</span>          |
+| Early 1990s recession   | 1991-02-28 | -0.09%                | 1.85%                 | <span style="color:green">Outperform</span>            |
+| Early 1990s recession   | 1991-03-28 | 0.12%                 | 1.13%                 | <span style="color:green">Outperform</span>            |
 
 
 ![image](https://github.com/user-attachments/assets/d3688641-2106-4011-b71b-65f77732681e)
 Significant Points on JE Strategy (over 1% difference)
 | Background              | Date       | Baseline Daily Return | Strategy Daily Return | Strategy Performance |
 |-------------------------|------------|-----------------------|-----------------------|-----------------------|
-| Black Monday            | 1987-10-19 | -9.92%                | -8.27%                | Outperform            |
-| Black Monday            | 1987-10-30 | 3.23%                 | 2.14%                 | Underperform          |
-| Early 1990s recession   | 1990-08-31 | 0.67%                 | -0.40%                | Underperform          |
-| Early 1990s recession   | 1990-09-28 | 1.11%                 | -0.31%                | Underperform          |
-| Early 1990s recession   | 1991-02-28 | -0.09%                | 1.88%                 | Outperform            |
-| Early 1990s recession   | 1991-03-28 | 0.12%                 | 1.15%                 | Outperform            |
+| Black Monday            | 1987-10-19 | -9.92%                | -8.27%                | <span style="color:green">Outperform</span>            |
+| Black Monday            | 1987-10-30 | 3.23%                 | 2.14%                 | <span style="color:red">Underperform</span>          |
+| Early 1990s recession   | 1990-08-31 | 0.67%                 | -0.40%                | <span style="color:red">Underperform</span>          |
+| Early 1990s recession   | 1990-09-28 | 1.11%                 | -0.31%                | <span style="color:red">Underperform</span>          |
+| Early 1990s recession   | 1991-02-28 | -0.09%                | 1.88%                 | <span style="color:green">Outperform</span>            |
+| Early 1990s recession   | 1991-03-28 | 0.12%                 | 1.15%                 | <span style="color:green">Outperform</span>            |
 
 
 #### Classification Criteria
