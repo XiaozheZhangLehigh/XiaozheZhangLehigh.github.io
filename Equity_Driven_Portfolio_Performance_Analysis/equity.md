@@ -77,7 +77,7 @@ The following Table shows the backtesting result for semi-annual rebalance becau
 
 ##### JS Strategy
 ![image](https://github.com/user-attachments/assets/2dd646cd-0ac6-4006-9ee0-60b55ad210a0)
-Significant Points on JS Strategy (over 1% difference)
+###### Significant Points on JS Strategy (over 1% difference)
 
 | Background              | Date       | Baseline Daily Return | Strategy Daily Return | Strategy Performance |
 |-------------------------|------------|-----------------------|-----------------------|-----------------------|
@@ -98,7 +98,7 @@ Significant Points on JS Strategy (over 1% difference)
 
 ##### JB Strategy
 ![image](https://github.com/user-attachments/assets/8b03651f-fce1-4b77-9fbd-13c296b30e0b)
-Significant Points on JB Strategy (over 1% difference)
+###### Significant Points on JB Strategy (over 1% difference)
 
 | Background              | Date       | Baseline Daily Return | Strategy Daily Return | Strategy Performance |
 |-------------------------|------------|-----------------------|-----------------------|-----------------------|
@@ -112,7 +112,7 @@ Significant Points on JB Strategy (over 1% difference)
 
 ##### JE Strategy
 ![image](https://github.com/user-attachments/assets/d3688641-2106-4011-b71b-65f77732681e)
-Significant Points on JE Strategy (over 1% difference)
+###### Significant Points on JE Strategy (over 1% difference)
 
 | Background              | Date       | Baseline Daily Return | Strategy Daily Return | Strategy Performance |
 |-------------------------|------------|-----------------------|-----------------------|-----------------------|
