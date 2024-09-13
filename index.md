@@ -22,15 +22,16 @@ I am a master's student in Mathematical Finance at Boston University, bringing a
 
 <!-- You can link to other websites, PDFs in this repo, and other pages in this repo -->
 
-_**[Investment Model Consolidation via Hierarchical Clustering](Investment_Model_Consolidation/clustering.md)**_
-
-<img src="Investment_Model_Consolidation/clustering.png?raw=true" style="width:70%;">
-
----
 
 _**[Equity-Driven Portfolio Performance Analysis](Equity_Driven_Portfolio_Performance_Analysis/equity.md)**_
 
 <img src="Equity_Driven_Portfolio_Performance_Analysis/rebalancing.png?raw=true" style="width:70%;">
+
+---
+
+_**[Investment Model Consolidation via Hierarchical Clustering](Investment_Model_Consolidation/clustering.md)**_
+
+<img src="Investment_Model_Consolidation/clustering.png?raw=true" style="width:70%;">
 
 ---
 
@@ -45,7 +46,17 @@ _**[Johnson Controls Internship Project SGA Account Optimization Analysis](/JCI/
 
 <!-- You can link to other websites, PDFs in this repo, and other pages in this repo -->
 
-_**[Home Credit - Credit Risk Model Stability, Silver Medal (35/3856) ------ Kaggle Competition](/home_credit_kaggle/homecredit.md)**_
+
+_**[Climate Risks Analysis and Weather Derivative Modeling](/WeatherDerivative/weather.md)**_
+
+<img src="WeatherDerivative/output.png?raw=true" style="width:70%;"/>
+
+
+---
+
+_**[Home Credit - Credit Risk Model Stability, Silver Medal (Top 1%) ------ Kaggle Competition](/home_credit_kaggle/homecredit.md)**_
+
+
 
 <img src="home_credit_kaggle/HomeCredit.jpg?raw=true" style="width:70%;"/>
 
