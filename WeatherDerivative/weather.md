@@ -49,9 +49,10 @@ The Climate Risks Analysis and Weather Derivative Modeling project provides a co
 - Volatility Analysis: Analyzes temperature volatility using various methods:
   - Piece-wise constant functions
   - Polynomial regression
-  - Splines
+  - Splines (Best)
   - Fourier series
 - Model Fitting: Fits these models to the data and evaluates their performance.
+<img src="https://github.com/user-attachments/assets/11a758b8-3104-4bb5-89f6-f565bd1a1a29" alt="Image" style="width: 70%;"/>
 
 ### Monte Carlo Simulation of Temperature for Weather Derivative Pricing
 - Simulation: Implements a modified Ornstein-Uhlenbeck process to simulate temperature paths.
