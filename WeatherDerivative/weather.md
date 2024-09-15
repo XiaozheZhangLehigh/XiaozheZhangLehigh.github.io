@@ -36,11 +36,13 @@ The Climate Risks Analysis and Weather Derivative Modeling project provides a co
 - Decomposition: Decomposes the temperature series into trend, seasonality, and residual components using classical decomposition.
 - Stationarity Testing: Applies the Augmented Dickey-Fuller test to check for stationarity in the residuals.
 - Autoregressive Modelling: Fits an AR model to the residuals to capture any remaining autocorrelation.
+<img src="https://github.com/user-attachments/assets/957b9fbf-e0ff-4a81-86b8-867f42fb3175" alt="Image" style="width: 70%;"/>
 
 ### De-trending and Modelling Seasonal Variation with Fourier Series
 - Denoising: Uses convolution to smooth the temperature series.
 - Trend and Seasonality Modelling: Models long-term trends and seasonal variations using Fourier series.
 - Model Comparison: Compares different Fourier series models to identify the best fit for seasonal variation.
+<img src="https://github.com/user-attachments/assets/7e5a7d1a-dce6-40c9-a880-983a8165d6d1" alt="Image" style="width: 70%;"/>
 
 
 ### Temperature Volatility Models
