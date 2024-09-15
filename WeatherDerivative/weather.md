@@ -30,8 +30,6 @@ The Climate Risks Analysis and Weather Derivative Modeling project provides a co
   <img src="https://github.com/user-attachments/assets/50ff4343-8f99-409f-8b3e-82cf658ef687" style="position: absolute; bottom: 0; right: 0; width: 45%;"/>
 </div>
 
-
-
 ### Time Series Decomposition and Modelling
 - Decomposition: Decomposes the temperature series into trend, seasonality, and residual components using classical decomposition.
 - Stationarity Testing: Applies the Augmented Dickey-Fuller test to check for stationarity in the residuals.
@@ -48,8 +46,8 @@ The Climate Risks Analysis and Weather Derivative Modeling project provides a co
 - Using modified OU process
 The standard OU process has a constant mean, but in temperature the expectation is not equal to the long run average temp
 - Mean Reversion Level (θ): The drift term in this model includes both the mean reversion component and a new dynamic, the rate of change of the seasonal mean, allowing the model to account for the changing trend in temperatures over time.
-  - Estimating Speed of Mean Reversion
-  - $$ d T_t = \left[ \frac{d\bar{T}_t}{dt} + \kappa(\bar{T}_t - T_t) \right] dt + \sigma_t dW_t $$ 
+	•	Estimating Speed of Mean Reversion
+$$ dT_t = \left( \frac{d\bar{T}_t}{dt} + \kappa(\bar{T}_t - T_t) \right) dt + \sigma_t dW_t $$
 - Mean reversion speed (K): is determined through statistical analysis of historical temperature data, estimated using an autoregressive (AR 1) model, extracting components from it which is the kappa.
 Volatility (how to): volatility is not constant, but a dynamic volatility of the temperature process
 
