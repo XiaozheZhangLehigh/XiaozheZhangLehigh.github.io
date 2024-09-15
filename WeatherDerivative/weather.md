@@ -15,6 +15,26 @@ The Climate Risks Analysis and Weather Derivative Modeling project provides a co
 - Data Import: Loads historical temperature data.
 - Preprocessing: Cleans and merges maximum and minimum temperature datasets.
 - Exploratory Data Analysis: Visualizes temperature trends, seasonal patterns, and distributions using time series plots and histograms.
+![image](https://github.com/user-attachments/assets/ea3df274-b08b-40c1-ae2f-cb71d1c96548)
+![image](https://github.com/user-attachments/assets/cda262f5-02bf-40da-b725-25ecb544edc1)
+![image](https://github.com/user-attachments/assets/48540d47-8647-45c2-b31e-d3ff4844aab2)
+![image](https://github.com/user-attachments/assets/50ff4343-8f99-409f-8b3e-82cf658ef687)
+
+<div style="position: relative; width: 500px; height: 500px;">
+  <!-- Top-left corner -->
+  <img src="https://github.com/user-attachments/assets/ea3df274-b08b-40c1-ae2f-cb71d1c96548" style="position: absolute; top: 0; left: 0; width: 45%;"/>
+
+  <!-- Top-right corner -->
+  <img src="https://github.com/user-attachments/assets/cda262f5-02bf-40da-b725-25ecb544edc1" style="position: absolute; top: 0; right: 0; width: 45%;"/>
+
+  <!-- Bottom-left corner -->
+  <img src="https://github.com/user-attachments/assets/48540d47-8647-45c2-b31e-d3ff4844aab2" style="position: absolute; bottom: 0; left: 0; width: 45%;"/>
+
+  <!-- Bottom-right corner -->
+  <img src="https://github.com/user-attachments/assets/50ff4343-8f99-409f-8b3e-82cf658ef687" style="position: absolute; bottom: 0; right: 0; width: 45%;"/>
+</div>
+
+
 
 ### Time Series Decomposition and Modelling
 - Decomposition: Decomposes the temperature series into trend, seasonality, and residual components using classical decomposition.
