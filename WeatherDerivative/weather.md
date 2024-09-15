@@ -15,10 +15,6 @@ The Climate Risks Analysis and Weather Derivative Modeling project provides a co
 - Data Import: Loads historical temperature data.
 - Preprocessing: Cleans and merges maximum and minimum temperature datasets.
 - Exploratory Data Analysis: Visualizes temperature trends, seasonal patterns, and distributions using time series plots and histograms.
-![image](https://github.com/user-attachments/assets/ea3df274-b08b-40c1-ae2f-cb71d1c96548)
-![image](https://github.com/user-attachments/assets/cda262f5-02bf-40da-b725-25ecb544edc1)
-![image](https://github.com/user-attachments/assets/48540d47-8647-45c2-b31e-d3ff4844aab2)
-![image](https://github.com/user-attachments/assets/50ff4343-8f99-409f-8b3e-82cf658ef687)
 
 <div style="position: relative; width: 500px; height: 500px;">
   <!-- Top-left corner -->
