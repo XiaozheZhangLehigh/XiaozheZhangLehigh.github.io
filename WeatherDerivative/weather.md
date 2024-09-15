@@ -56,7 +56,7 @@ The Climate Risks Analysis and Weather Derivative Modeling project provides a co
   $$ dT_t = \left( \frac{d\bar{T}_t}{dt} + \kappa(\bar{T}_t - T_t) \right) dt + \sigma_t dW_t $$
 
   Where:
-  - \( T_t \): The temperature at time \( t \)
+  - $$\( T_t \)$$: The temperature at time \( t \)
   - \( \bar{T}_t \): The dynamic mean temperature
   - \( \kappa \): The mean reversion speed
   - \( \sigma_t \): The time-varying volatility
