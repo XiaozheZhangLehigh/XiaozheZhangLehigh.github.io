@@ -98,7 +98,8 @@ The Climate Risks Analysis and Weather Derivative Modeling project provides a co
 
 
 ### Compare the result
-<img src="![image](https://github.com/user-attachments/assets/4c7536d7-4258-49ca-91f6-787406667baa" alt="Image" style="width: 70%;"/>
+<img src="https://github.com/user-attachments/assets/5071d074-11d3-4b65-9868-b94a612d93de" alt="Image" style="width: 70%;"/>
+
 
 
 
