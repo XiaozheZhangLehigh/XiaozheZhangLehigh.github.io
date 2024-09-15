@@ -42,16 +42,31 @@ The Climate Risks Analysis and Weather Derivative Modeling project provides a co
 - Model Comparison: Compares different Fourier series models to identify the best fit for seasonal variation.
 <img src="https://github.com/user-attachments/assets/7e5a7d1a-dce6-40c9-a880-983a8165d6d1" alt="Image" style="width: 70%;"/>
 
-### Modelling Temperature with a modified Ornstein-Uhlenbeck process
-- Using modified OU process
-The standard OU process has a constant mean, but in temperature the expectation is not equal to the long run average temp
-- Mean Reversion Level (θ): The drift term in this model includes both the mean reversion component and a new dynamic, the rate of change of the seasonal mean, allowing the model to account for the changing trend in temperatures over time.
-	•	Estimating Speed of Mean Reversion
-$$ dT_t = \left( \frac{d\bar{T}_t}{dt} + \kappa(\bar{T}_t - T_t) \right) dt + \sigma_t dW_t $$
-- Mean reversion speed (K): is determined through statistical analysis of historical temperature data, estimated using an autoregressive (AR 1) model, extracting components from it which is the kappa.
-Volatility (how to): volatility is not constant, but a dynamic volatility of the temperature process
+### Modelling Temperature with a Modified Ornstein-Uhlenbeck (OU) Process
 
-- Model Fitting: Fits these models to the data and evaluates their performance.
+- **Using Modified OU Process**  
+  The standard Ornstein-Uhlenbeck (OU) process assumes a constant mean, but when modeling temperature, the expectation deviates from the long-run average temperature due to seasonal and long-term trends.
+
+- **Mean Reversion Level (θ):**  
+  In this model, the drift term includes both the mean reversion component and the rate of change of the seasonal mean. This allows the model to capture the changing trends in temperature over time, rather than assuming a constant mean.
+
+- **Estimating Speed of Mean Reversion:**  
+  The temperature dynamics can be modeled by the following stochastic differential equation:
+  
+  $$ dT_t = \left( \frac{d\bar{T}_t}{dt} + \kappa(\bar{T}_t - T_t) \right) dt + \sigma_t dW_t $$
+
+  Where:
+  - \( T_t \): The temperature at time \( t \)
+  - \( \bar{T}_t \): The dynamic mean temperature
+  - \( \kappa \): The mean reversion speed
+  - \( \sigma_t \): The time-varying volatility
+  - \( dW_t \): The Wiener process (random noise)
+
+- **Mean Reversion Speed (κ):**  
+  The mean reversion speed \( \kappa \) is determined through statistical analysis of historical temperature data. It can be estimated using an autoregressive model (AR(1)), from which \( \kappa \) is extracted as a key parameter.
+
+- **Volatility (Dynamic):**  
+  Unlike traditional models where volatility is constant, the volatility \( \sigma_t \) in the temperature process is dynamic. This captures the changing variability in temperature over time, which may depend on seasonal factors or other environmental influences.
 
 ### Temperature Volatility Models
 - Volatility Analysis: Analyzes temperature volatility using various methods:
