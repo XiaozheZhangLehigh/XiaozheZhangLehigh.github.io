@@ -81,8 +81,8 @@ The Climate Risks Analysis and Weather Derivative Modeling project provides a co
 - Simulation: Implements a modified Ornstein-Uhlenbeck process to simulate temperature paths.
 - Visualization: Plots simulated temperature paths and compares summer and winter simulations.
 - Euler Scheme: Uses the Euler scheme for numerical approximation in the simulation.
-  - With Euler scheme of approximation
-    $$ T_{i+1} = T_i + \bar{T}'_i + \kappa (\bar{T}_i - T_i) + \sigma_i z_i $$ 
+  With Euler scheme of approximation:
+  $$ T_{i+1} = T_i + \bar{T}'_i + \kappa (\bar{T}_i - T_i) + \sigma_i z_i $$ 
 <img src="https://github.com/user-attachments/assets/95a1222e-702e-489d-87e7-44b3f40e6230" alt="Image" style="width: 70%;"/>
 <img src="https://github.com/user-attachments/assets/02253297-0920-4378-a390-9c8b491c46cf" alt="Image" style="width: 70%;"/>
 <img src="https://github.com/user-attachments/assets/0462c1cb-25a7-4b2d-8244-f4fb415af7d6" alt="Image" style="width: 70%;"/>
