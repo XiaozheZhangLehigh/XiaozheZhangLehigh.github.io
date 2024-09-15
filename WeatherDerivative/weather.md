@@ -57,10 +57,10 @@ The Climate Risks Analysis and Weather Derivative Modeling project provides a co
 
   Where:
   - $$\( T_t \)$$: The temperature at time \( t \)
-  - \( \bar{T}_t \): The dynamic mean temperature
-  - \( \kappa \): The mean reversion speed
-  - \( \sigma_t \): The time-varying volatility
-  - \( dW_t \): The Wiener process (random noise)
+  - $$\( \bar{T}_t \)$$ : The dynamic mean temperature
+  - $$\( \kappa \)$$ : The mean reversion speed
+  - $$\( \sigma_t \)$$ : The time-varying volatility
+  - $$\( dW_t \)$$ : The Wiener process (random noise)
 
 - **Mean Reversion Speed (κ):**  
   The mean reversion speed \( \kappa \) is determined through statistical analysis of historical temperature data. It can be estimated using an autoregressive model (AR(1)), from which \( \kappa \) is extracted as a key parameter.
