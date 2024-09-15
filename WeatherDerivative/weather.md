@@ -81,11 +81,18 @@ The Climate Risks Analysis and Weather Derivative Modeling project provides a co
 - Simulation: Implements a modified Ornstein-Uhlenbeck process to simulate temperature paths.
 - Visualization: Plots simulated temperature paths and compares summer and winter simulations.
 - Euler Scheme: Uses the Euler scheme for numerical approximation in the simulation.
+<img src="https://github.com/user-attachments/assets/95a1222e-702e-489d-87e7-44b3f40e6230" alt="Image" style="width: 70%;"/>
+<img src="https://github.com/user-attachments/assets/02253297-0920-4378-a390-9c8b491c46cf" alt="Image" style="width: 70%;"/>
+<img src="https://github.com/user-attachments/assets/0462c1cb-25a7-4b2d-8244-f4fb415af7d6" alt="Image" style="width: 70%;"/>
+
+
 
 ### Risk-Neutral Pricing of Weather Derivatives
 - Risk-Neutral Measure: Transforms the temperature process to a risk-neutral measure for pricing.
 - Option Pricing: Calculates the mean and variance under the risk-neutral measure to price temperature options.
 - Black-Scholes Approach: Compares option prices using a modified Black-Scholes approach.
+<img src="https://github.com/user-attachments/assets/cc51041d-370b-4b59-afc1-14054cfb7e1f" alt="Image" style="width: 70%;"/>
+
 
 ### Monte Carlo Valuation
 - Simulation-Based Pricing: Uses Monte Carlo simulation to price temperature options.
