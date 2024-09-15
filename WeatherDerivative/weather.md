@@ -3,6 +3,9 @@
 ## Summary	
 
 The Climate Risks Analysis and Weather Derivative Modeling project provides a comprehensive framework for analyzing temperature data and pricing weather derivatives, essential for managing weather-related risks in a financial portfolio. It begins with the introduction and calculation of Heating Degree Days (HDD) and Cooling Degree Days (CDD), followed by a detailed statistical analysis of historical temperature data. The notebook then decomposes the temperature series into trend, seasonality, and residuals, and fits autoregressive models to the residuals. It models long-term trends and seasonal variations using Fourier series and analyzes temperature volatility through various methods, including polynomial regression and splines. The core of the notebook involves simulating temperature paths using a modified Ornstein-Uhlenbeck process and pricing temperature options under a risk-neutral measure, comparing results from Monte Carlo simulations and a modified Black-Scholes approach. This analytical approach ensures robust, data-driven decision-making for hedging temperature-related risks and diversifying a financial portfolio.
+![image](https://github.com/user-attachments/assets/bf175a27-1225-4497-a4f8-964b811f4cb9)
+
+<img src="https://github.com/user-attachments/assets/bf175a27-1225-4497-a4f8-964b811f4cb9" alt="Image" style="width: 70%;"/>
 
 ### Introduction to Temperature Options
 - Concepts: Introduces Heating Degree Days (HDD) and Cooling Degree Days (CDD) as measures for estimating heating and cooling demands.
