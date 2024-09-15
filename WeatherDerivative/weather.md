@@ -16,7 +16,7 @@ The Climate Risks Analysis and Weather Derivative Modeling project provides a co
 - Preprocessing: Cleans and merges maximum and minimum temperature datasets.
 - Exploratory Data Analysis: Visualizes temperature trends, seasonal patterns, and distributions using time series plots and histograms.
 
-<div style="position: relative; width: 300px; height: 300px;">
+<div style="position: relative; width: 500px; height: 500px;">
   <!-- Top-left corner -->
   <img src="https://github.com/user-attachments/assets/ea3df274-b08b-40c1-ae2f-cb71d1c96548" style="position: absolute; top: 0; left: 0; width: 45%;"/>
 
@@ -97,9 +97,8 @@ The Climate Risks Analysis and Weather Derivative Modeling project provides a co
 <img src="https://github.com/user-attachments/assets/cc51041d-370b-4b59-afc1-14054cfb7e1f" alt="Image" style="width: 70%;"/>
 
 
-### Monte Carlo Valuation
-- Simulation-Based Pricing: Uses Monte Carlo simulation to price temperature options.
-- Error Estimation: Calculates standard errors for the option prices to assess the accuracy of the simulation.
+### Compare the result
+<img src="![image](https://github.com/user-attachments/assets/4c7536d7-4258-49ca-91f6-787406667baa" alt="Image" style="width: 70%;"/>
 
 
 
