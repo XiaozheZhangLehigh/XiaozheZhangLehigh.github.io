@@ -61,7 +61,7 @@ Where:
 1. $$T_t$$: The temperature at time \( t \)
 2. $\bar{T}_t$: The dynamic mean temperature
 3. $\kappa$: The mean reversion speed
-4. $$sigma_t$$: The time-varying volatility
+4. $\sigma_t$: The time-varying volatility
 5. $$dW_t$$: The Wiener process (random noise)
 
 - **Mean Reversion Speed (κ):**  
