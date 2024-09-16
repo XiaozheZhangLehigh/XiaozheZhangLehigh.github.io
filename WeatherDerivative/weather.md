@@ -58,11 +58,11 @@ dT_t = \left( \frac{d\bar{T}_t}{dt} + \kappa(\bar{T}_t - T_t) \right) dt + \sigm
 $$
   
 Where:
-1. \(T_t\): The temperature at time \(t\)
-2. \(\bar{T}_t\): The dynamic mean temperature
-3. \(\kappa\): The mean reversion speed
-4. \(\sigma_t\): The time-varying volatility
-5. - \(dW_t\): The Wiener process (random noise)
+1. \( T_t \): The temperature at time \( t \)
+2. \( \bar{T}_t \): The dynamic mean temperature
+3. \( \kappa \): The mean reversion speed
+4. \( \sigma_t \): The time-varying volatility
+5. \( dW_t \): The Wiener process (random noise)
 
 - **Mean Reversion Speed (κ):**  
   The mean reversion speed κ is determined through statistical analysis of historical temperature data. It can be estimated using an autoregressive model (AR(1)), from which κ is extracted as a key parameter.
