@@ -52,18 +52,20 @@ The Climate Risks Analysis and Weather Derivative Modeling project provides a co
 
 - **Estimating Speed of Mean Reversion:**  
   The temperature dynamics can be modeled by the following stochastic differential equation:
-  
-  $$ dT_t = \left( \frac{d\bar{T}_t}{dt} + \kappa(\bar{T}_t - T_t) \right) dt + \sigma_t dW_t $$
 
-  Where:
-  - $$\( T_t \)$$: The temperature at time \( t \)
-  - $$\( \bar{T}_t \)$$ : The dynamic mean temperature
-  - $$\( \kappa \)$$ : The mean reversion speed
-  - $$\( \sigma_t \)$$ : The time-varying volatility
-  - $$\( dW_t \)$$ : The Wiener process (random noise)
+$$
+dT_t = \left( \frac{d\bar{T}_t}{dt} + \kappa(\bar{T}_t - T_t) \right) dt + \sigma_t dW_t
+$$
+
+Where:
+- \(T_t\): The temperature at time \(t\)
+- \(\bar{T}_t\): The dynamic mean temperature
+- \(\kappa\): The mean reversion speed
+- \(\sigma_t\): The time-varying volatility
+- \(dW_t\): The Wiener process (random noise)
 
 - **Mean Reversion Speed (κ):**  
-  The mean reversion speed \( \kappa \) is determined through statistical analysis of historical temperature data. It can be estimated using an autoregressive model (AR(1)), from which \( \kappa \) is extracted as a key parameter.
+  The mean reversion speed κ is determined through statistical analysis of historical temperature data. It can be estimated using an autoregressive model (AR(1)), from which κ is extracted as a key parameter.
 
 - **Volatility (Dynamic):**  
   Unlike traditional models where volatility is constant, the volatility \( \sigma_t \) in the temperature process is dynamic. This captures the changing variability in temperature over time, which may depend on seasonal factors or other environmental influences.
